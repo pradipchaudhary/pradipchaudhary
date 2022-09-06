@@ -1,7 +1,6 @@
 ### Hi People. Welcome To Pradip's Github. 👋
 
-
-Here are some ideas to get you started:
+A passionate Full Stack Software Developer 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.
 
 
 ### What can i do?
