@@ -12,6 +12,7 @@ A passionate Full Stack Software Developer 🚀 having a special interest in Fro
 - 📝 Actively listen to customers' requests, confirming full understanding before addressing concerns.
 - 🧑💻 Plan website development, converting mockups into usable web presence with HTML, React JS, Redux and JSON coding.
 - 🔨 Convert graphic designs to usable web images using React JS.
+<br />
 
 ### Languages and Tools:
 
