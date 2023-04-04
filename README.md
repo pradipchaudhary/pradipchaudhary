@@ -14,6 +14,23 @@ A passionate Full Stack Software Developer 🚀 having a special interest in Fro
 - 🔨 Convert graphic designs to usable web images using React JS.
 <br />
 
+### Connect with me:
+
+[![website](./img/globe-light.svg)](https://codestackr.com#gh-light-mode-only)
+[![website](./img/globe-dark.svg)](https://codestackr.com#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![website](./img/youtube-light.svg)](https://youtube.com/codestackr#gh-light-mode-only)
+[![website](./img/youtube-dark.svg)](https://youtube.com/codestackr#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![website](./img/twitter-light.svg)](https://twitter.com/codestackr#gh-light-mode-only)
+[![website](./img/twitter-dark.svg)](https://twitter.com/codestackr#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![website](./img/linkedin-light.svg)](https://linkedin.com/in/codeSTACKr#gh-light-mode-only)
+[![website](./img/linkedin-dark.svg)](https://linkedin.com/in/codeSTACKr#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![website](./img/instagram-light.svg)](https://instagram.com/codeSTACKr#gh-light-mode-only)
+[![website](./img/instagram-dark.svg)](https://instagram.com/codeSTACKr#gh-dark-mode-only)
+
 ### Languages and Tools:
 
 <img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
