@@ -1,4 +1,4 @@
-![Profile Views](https://komarev.com/ghpvc/?username=bidhan948&color=green)
+![Profile Views](https://komarev.com/ghpvc/?username=pradipchaudhary&color=green)
 
 ### Hi there, I'm Pradip Chaudhary 👋
 
