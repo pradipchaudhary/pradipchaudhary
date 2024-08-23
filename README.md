@@ -13,8 +13,7 @@ A passionate  <a href="https://www.pradipchaudhary.com.np"><img align="center" s
 - 📝 Actively listen to customers' requests, confirming full understanding before addressing concerns.
 - 🧑💻 Plan website development, converting mockups into usable web presence with HTML, React JS, Redux and JSON coding.
 - 🔨 Convert graphic designs to usable web images using React JS.
-<br />
-
+  
 
 ### Languages and Tools:
 
@@ -32,8 +31,10 @@ A passionate  <a href="https://www.pradipchaudhary.com.np"><img align="center" s
 <img align="left" alt="SQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />
 <img align="left" alt="MySQL" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
 <img align="left" alt="MongoDB" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
-
 <img align="left" alt="Firebase" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" />
+
+<small>❯❯ You can follow me on: ↓</strong>
+
 
 <img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 <img align="left" alt="GitHub" width="26px" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" />
