@@ -1,3 +1,11 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+</style>
+
 ### Hi there, I'm Pradip Chaudhary <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
 
 A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" src="https://img.shields.io/badge/Full_Stack-Developer-brightgreen" /></a> 🚀 with a special interest in Frontend technologies. With extensive experience in building dynamic web applications using JavaScript, React.js, Node.js, TypeScript, and other cutting-edge libraries and frameworks, I thrive on transforming ideas into engaging digital experiences.
