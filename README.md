@@ -1,15 +1,15 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=pradipchaudhary&color=green)
 ### Hi there, I'm Pradip Chaudhary <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30">
 
-A passionate  Full Stack Software Developer <a href="https://www.youtube.com/c/ImranSayedDev"><img align="center" src="https://img.shields.io/badge/Full_Stack-Software-blue"/></a> 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs / TypeScript and some other cool libraries and frameworks.
+A passionate  <a href="https://www.pradipchaudhary.com.np"><img align="center" src="https://img.shields.io/badge/Full_Stack-Software-blue"/></a>  Developer 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs / TypeScript and some other cool libraries and frameworks.
 
 
-### What can i do?
-- 🌱 I’m Full Time React JS developer.
-- 🌱 Learning Next JS and Typescript to enhance my skillset.
-- 💪 My strength in rapid responsive Designing.
-- 🎨 I can design amazing layout using Bulma, BootStrap, tailwind Styled Componenets Sass.
-- 👯 My skills are in designing, development SEO Optimization and Web Scrapping.
+### What can I do?
+- 🌱 I’m a full-time React JS developer.
+- 🌱 Learning Next JS and Typescript to enhance my skill set.
+- 💪 My strength in rapid responsive Design.
+- 🎨 I can design amazing layouts using Bulma, BootStrap, tailwind and Styled Components Sass.
+- 👯 My skills are designing, developing SEO Optimization and Web Scrapping.
 - 📝 Actively listen to customers' requests, confirming full understanding before addressing concerns.
 - 🧑💻 Plan website development, converting mockups into usable web presence with HTML, React JS, Redux and JSON coding.
 - 🔨 Convert graphic designs to usable web images using React JS.
