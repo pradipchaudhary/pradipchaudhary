@@ -45,4 +45,4 @@ A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" sr
 
  <br />
 
-Feel free to reach out if you have any exciting projects or collaboration opportunities!
+*Feel free to reach out if you have any exciting projects or collaboration opportunities!*
