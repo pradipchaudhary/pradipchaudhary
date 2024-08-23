@@ -11,6 +11,7 @@ A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" sr
 - 📝 Actively listen to customers' requests, confirming full understanding before addressing concerns.
 - 🧑💻 Plan website development, converting mockups into a usable web presence with HTML, React.js, Redux, and JSON coding.
 - 🔨 Convert graphic designs to usable web images using React.js.
+<br />
 
 #### Languages and Tools:
 
@@ -34,9 +35,12 @@ A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" sr
 <img align="left" alt="Terminal" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 
 <br />
+<br />
 
 #### 📫 You can follow me on: ↓
 
  [![Twitter](https://img.shields.io/twitter/follow/pradipchaudhary?label=%40pradipchaudhary&style=social)](https://twitter.com/pradipchaudhary)
  [![Github](https://img.shields.io/github/followers/pradipchaudhary?style=social&label=Follow)](https://github.com/pradipchaudhary)
  ![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=lightgrey)
+
+ <br />
