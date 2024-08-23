@@ -1,19 +1,20 @@
 ### Hi there, I'm Pradip Chaudhary <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
 
-A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" src="https://img.shields.io/badge/Full_Stack-Developer-brightgreen" /></a>  🚀 with a special interest in Frontend technologies and experience in building Web applications with JavaScript, React.js, Node.js, TypeScript, and other cool libraries and frameworks.
+A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" src="https://img.shields.io/badge/Full_Stack-Developer-brightgreen" /></a> 🚀 with a special interest in Frontend technologies. With extensive experience in building dynamic web applications using JavaScript, React.js, Node.js, TypeScript, and other cutting-edge libraries and frameworks, I thrive on transforming ideas into engaging digital experiences.
 
-#### What can I do?
-- 🌱 I’m a full-time React.js developer.
-- 🌱 Learning Next.js and TypeScript to enhance my skill set.
-- 💪 My strength is rapid responsive design.
-- 🎨 I can design amazing layouts using Bulma, Bootstrap, Tailwind CSS, and Styled Components with Sass.
-- 👯 My skills include designing, developing, SEO optimization, and web scraping.
-- 📝 Actively listen to customers' requests, confirming full understanding before addressing concerns.
-- 🧑💻 Plan website development, converting mockups into a usable web presence with HTML, React.js, Redux, and JSON coding.
-- 🔨 Convert graphic designs to usable web images using React.js.
-<br />
+### What can I do?
 
-#### Languages and Tools:
+-   🌱 I’m a full-time React.js developer.
+-   🌱 Learning Next.js and TypeScript to enhance my skill set.
+-   💪 My strength is rapid responsive design.
+-   🎨 I can design amazing layouts using Bulma, Bootstrap, Tailwind CSS, and Styled Components with Sass.
+-   👯 My skills include designing, developing, SEO optimization, and web scraping.
+-   📝 Actively listen to customers' requests, confirming full understanding before addressing concerns.
+-   🧑💻 Plan website development, converting mockups into a usable web presence with HTML, React.js, Redux, and JSON coding.
+-   🔨 Convert graphic designs to usable web images using React.js.
+    <br />
+
+### 🛠️ Languages and Tools:
 
 <a href="https://code.visualstudio.com/" target="_blank"><img align="left" alt="Visual Studio Code" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" /></a>
 <img align="left" alt="HTML5" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
@@ -35,12 +36,13 @@ A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" sr
 <img align="left" alt="Terminal" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 
 <br />
-<br />
 
-#### 📫 You can follow me on: ↓
+### 📫 You can follow me on: ↓
 
- [![Twitter](https://img.shields.io/twitter/follow/pradipchaudhary?label=%40pradipchaudhary&style=social)](https://twitter.com/pradipchaudhary)
- [![Github](https://img.shields.io/github/followers/pradipchaudhary?style=social&label=Follow)](https://github.com/pradipchaudhary)
- ![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=lightgrey)
+[![Twitter](https://img.shields.io/twitter/follow/pradipchaudhary?label=%40pradipchaudhary&style=social)](https://twitter.com/pradipchaudhary)
+[![Github](https://img.shields.io/github/followers/pradipchaudhary?style=social&label=Follow)](https://github.com/pradipchaudhary)
+![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=lightgrey)
 
  <br />
+
+Feel free to reach out if you have any exciting projects or collaboration opportunities!
