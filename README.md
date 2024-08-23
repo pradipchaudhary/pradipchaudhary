@@ -35,7 +35,7 @@ A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" sr
 
 <br />
 
-### 📫 Let's Connect!
+### 📫 <small>❯❯ You can follow me on: ↓</strong>
 
  [![Twitter](https://img.shields.io/twitter/follow/pradipchaudhary?label=%40pradipchaudhary&style=social)](https://twitter.com/pradipchaudhary)
  [![Github](https://img.shields.io/github/followers/pradipchaudhary?style=social&label=Follow)](https://github.com/pradipchaudhary)
