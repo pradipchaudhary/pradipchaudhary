@@ -2,7 +2,7 @@
 
 A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" src="https://img.shields.io/badge/Full_Stack-Developer-brightgreen" /></a> 🚀 with a special interest in Frontend technologies. With extensive experience in building dynamic web applications using JavaScript, React.js, Node.js, TypeScript, and other cutting-edge libraries and frameworks, I thrive on transforming ideas into engaging digital experiences.
 
-## 🚀 What I Do
+### 🚀 What I Do
 
 -   **Full-Time React.js Developer**: Crafting seamless and efficient user interfaces.
 -   **Learning and Growing**: Currently exploring Next.js and TypeScript to expand my skill set.
@@ -36,7 +36,7 @@ A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" sr
 
 <br />
 
-## 📫 Let's Connect!
+### 📫 Let's Connect!
 
 [![Twitter](https://img.shields.io/twitter/follow/pradipchaudhary?label=%40pradipchaudhary&style=social)](https://twitter.com/pradipchaudhary)
 [![Github](https://img.shields.io/github/followers/pradipchaudhary?style=social&label=Follow)](https://github.com/pradipchaudhary)
