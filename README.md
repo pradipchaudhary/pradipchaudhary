@@ -37,7 +37,7 @@ A passionate  <a href="https://www.pradipchaudhary.com.np"><img align="center" s
 <img align="left" alt="Terminal" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 
 <br />
-<small>❯❯ You can follow me on: ↓</strong>
+#### <small>❯❯ You can follow me on: ↓</strong>
 [[![Github](https://img.shields.io/github/followers/pradipchaudhary?style=social&label=Follow)] ![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=lightgrey)
 <br />
 <br />
