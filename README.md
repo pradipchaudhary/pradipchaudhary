@@ -1,5 +1,5 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=pradipchaudhary&color=green)
-### Hi there, I'm Pradip Chaudhary 👋
+### Hi there, I'm Pradip Chaudhary <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30">
 
 A passionate Full Stack Software Developer 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs / TypeScript and some other cool libraries and frameworks.
 
