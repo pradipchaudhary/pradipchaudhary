@@ -2,17 +2,16 @@
 
 A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" src="https://img.shields.io/badge/Full_Stack-Developer-brightgreen" /></a> 🚀 with a special interest in Frontend technologies. With extensive experience in building dynamic web applications using JavaScript, React.js, Node.js, TypeScript, and other cutting-edge libraries and frameworks, I thrive on transforming ideas into engaging digital experiences.
 
-### What can I do?
+## 🚀 What I Do
 
--   🌱 I’m a full-time React.js developer.
--   🌱 Learning Next.js and TypeScript to enhance my skill set.
--   💪 My strength is rapid responsive design.
--   🎨 I can design amazing layouts using Bulma, Bootstrap, Tailwind CSS, and Styled Components with Sass.
--   👯 My skills include designing, developing, SEO optimization, and web scraping.
--   📝 Actively listen to customers' requests, confirming full understanding before addressing concerns.
--   🧑💻 Plan website development, converting mockups into a usable web presence with HTML, React.js, Redux, and JSON coding.
--   🔨 Convert graphic designs to usable web images using React.js.
-    <br />
+-   **Full-Time React.js Developer**: Crafting seamless and efficient user interfaces.
+-   **Learning and Growing**: Currently exploring Next.js and TypeScript to expand my skill set.
+-   **Responsive Design Specialist**: Expertise in creating rapid and responsive designs.
+-   **UI/UX Design**: Designing stunning layouts using Bulma, Bootstrap, Tailwind CSS, and Styled Components with Sass.
+-   **SEO and Web Scraping**: Skilled in optimizing web applications for search engines and extracting valuable data.
+-   **Client-Centric Approach**: Committed to understanding and addressing customer needs effectively.
+-   **Web Development**: Converting mockups into functional web applications using HTML, React.js, Redux, and JSON.
+-   **Graphic Design Integration**: Transforming graphic designs into interactive web elements using React.js.
 
 ### 🛠️ Languages and Tools:
 
