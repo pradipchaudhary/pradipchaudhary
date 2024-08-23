@@ -1,6 +1,6 @@
 ### Hi there, I'm Pradip Chaudhary <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
 
-A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" src="https://img.shields.io/badge/Full_Stack-Software-blue" /></a> Developer 🚀 with a special interest in Frontend technologies and experience in building Web applications with JavaScript, React.js, Node.js, TypeScript, and other cool libraries and frameworks.
+A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" src="https://img.shields.io/badge/Full_Stack-Developer-brightgreen" /></a>  🚀 with a special interest in Frontend technologies and experience in building Web applications with JavaScript, React.js, Node.js, TypeScript, and other cool libraries and frameworks.
 
 ### What can I do?
 - 🌱 I’m a full-time React.js developer.
@@ -14,7 +14,7 @@ A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" sr
 
 ### Languages and Tools:
 
-<a href="https://code.visualstudio.com/" target="_blank"><img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" /></a>
+<a href="https://code.visualstudio.com/" target="_blank"><img align="left" alt="Visual Studio Code" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" /></a>
 <img align="left" alt="HTML5" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 <img align="left" alt="CSS3" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 <img align="left" alt="Sass" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
