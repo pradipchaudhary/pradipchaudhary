@@ -1,11 +1,4 @@
-<!-- Add this in the beginning of your README -->
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-  
-  body {
-    font-family: 'Roboto', sans-serif;
-  }
-</style>
+
 
 ### Hi there, I'm Pradip Chaudhary <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
 
