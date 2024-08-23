@@ -39,5 +39,5 @@ A passionate  <a href="https://www.pradipchaudhary.com.np"><img align="center" s
 </p>
 
 <br>
-<p> ❯❯ You can follow me on: ↓</p>
+### ❯❯ You can follow me on: ↓
 
