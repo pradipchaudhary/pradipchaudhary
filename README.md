@@ -1,7 +1,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=pradipchaudhary&color=green)
 ### Hi there, I'm Pradip Chaudhary <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30">
 
-A passionate  Full Stack Software Developer <a href="https://www.youtube.com/c/ImranSayedDev"><img align="center" src="[https://img.shields.io/badge/Full%20Stack-Engineer-brightgreen](https://img.shields.io/badge/Full_Stack-Software-blue)"/></a> 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs / TypeScript and some other cool libraries and frameworks.
+A passionate  Full Stack Software Developer <a href="https://www.youtube.com/c/ImranSayedDev"><img align="center" src="https://img.shields.io/badge/Full%20Stack-Engineer-brightgreen"/></a> 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs / TypeScript and some other cool libraries and frameworks.
 
 
 ### What can i do?
