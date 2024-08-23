@@ -34,6 +34,9 @@ A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" sr
 <img align="left" alt="Terminal" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 
 <br />
-<small>❯❯ You can follow me on: ↓</small>
 
-[![Twitter](https://img.shields.io/twitter/follow/imranhsayed?label=%40imranhsayed&style=social)](https://twitter.com/imranhsayed) [![Github](https://img.shields.io/github/followers/imranhsayed?style=social&label=Follow)](https://github.com/imranhsayed) ![](https://komarev.com/ghpvc/?username=imranhsayed&style=flat-square&color=lightgrey)
+## 📫 Let's Connect!
+
+-   [![Twitter](https://img.shields.io/twitter/follow/pradipchaudhary?label=%40pradipchaudhary&style=social)](https://twitter.com/pradipchaudhary)
+-   [![Github](https://img.shields.io/github/followers/pradipchaudhary?style=social&label=Follow)](https://github.com/pradipchaudhary)
+-   ![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=lightgrey)
