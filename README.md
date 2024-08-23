@@ -43,6 +43,4 @@ A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" sr
 [![Github](https://img.shields.io/github/followers/pradipchaudhary?style=social&label=Follow)](https://github.com/pradipchaudhary)
 ![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=lightgrey)
 
- <br />
-
 *Feel free to reach out if you have any exciting projects or collaboration opportunities!*
