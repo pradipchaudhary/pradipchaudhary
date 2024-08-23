@@ -35,8 +35,8 @@ A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" sr
 
 <br />
 
-## 📫 Let's Connect!
+### 📫 Let's Connect!
 
--   [![Twitter](https://img.shields.io/twitter/follow/pradipchaudhary?label=%40pradipchaudhary&style=social)](https://twitter.com/pradipchaudhary)
--   [![Github](https://img.shields.io/github/followers/pradipchaudhary?style=social&label=Follow)](https://github.com/pradipchaudhary)
--   ![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=lightgrey)
+ [![Twitter](https://img.shields.io/twitter/follow/pradipchaudhary?label=%40pradipchaudhary&style=social)](https://twitter.com/pradipchaudhary)
+ [![Github](https://img.shields.io/github/followers/pradipchaudhary?style=social&label=Follow)](https://github.com/pradipchaudhary)
+ ![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=lightgrey)
