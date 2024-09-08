@@ -75,6 +75,6 @@ As a Full-Time [React.js Developer](https://reactjs.org/), I specialize in creat
 [![Instagram Follow](https://img.shields.io/badge/-Instagram-purple?style=social&logo=instagram&color=E4405F)](https://instagram.com/pradipchaudhary)
 [![Facebook Follow](https://img.shields.io/badge/-Facebook-blue?style=social&logo=facebook&color=1877F2)](https://facebook.com/pradipchaudhary)
 
-![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=lightgreen)
+![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=brightgreen)
 
 >Feel free to reach out if you have any exciting projects or collaboration opportunities!
