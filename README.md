@@ -11,55 +11,55 @@ As a **Full-Time React.js Developer**, I specialize in creating seamless, respon
 
 <p align="left">
   <a href="https://code.visualstudio.com/" target="_blank">
-    <img alt="Visual Studio Code" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="Visual Studio Code" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
+  </a>&nbsp;&nbsp;
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-    <img alt="HTML5" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="HTML5" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+  </a>&nbsp;&nbsp;
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-    <img alt="CSS3" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="CSS3" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+  </a>&nbsp;&nbsp;
   <a href="https://sass-lang.com/" target="_blank">
-    <img alt="Sass" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="Sass" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
+  </a>&nbsp;&nbsp;
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img alt="JavaScript" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="JavaScript" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
+  </a>&nbsp;&nbsp;
   <a href="https://www.typescriptlang.org/" target="_blank">
-    <img alt="TypeScript" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="TypeScript" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" />
+  </a>&nbsp;&nbsp;
   <a href="https://reactjs.org/" target="_blank">
-    <img alt="React" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="React" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
+  </a>&nbsp;&nbsp;
   <a href="https://www.gatsbyjs.com/" target="_blank">
-    <img alt="Gatsby" width="24px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/gatsby/gatsby.png" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="Gatsby" width="24px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/gatsby/gatsby.png" />
+  </a>&nbsp;&nbsp;
   <a href="https://graphql.org/" target="_blank">
-    <img alt="GraphQL" width="24px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="GraphQL" width="24px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" />
+  </a>&nbsp;&nbsp;
   <a href="https://www.php.net/" target="_blank">
-    <img alt="PHP" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="PHP" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png" />
+  </a>&nbsp;&nbsp;
   <a href="https://nodejs.org/" target="_blank">
-    <img alt="Node.js" width="24px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="Node.js" width="24px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+  </a>&nbsp;&nbsp;
   <a href="https://www.mysql.com/" target="_blank">
-    <img alt="MySQL" width="24px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="MySQL" width="24px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+  </a>&nbsp;&nbsp;
   <a href="https://www.mongodb.com/" target="_blank">
-    <img alt="MongoDB" width="24px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="MongoDB" width="24px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+  </a>&nbsp;&nbsp;
   <a href="https://firebase.google.com/" target="_blank">
-    <img alt="Firebase" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="Firebase" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" />
+  </a>&nbsp;&nbsp;
   <a href="https://git-scm.com/" target="_blank">
-    <img alt="Git" width="24px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="Git" width="24px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+  </a>&nbsp;&nbsp;
   <a href="https://github.com/" target="_blank">
-    <img alt="GitHub" width="24px" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" style="text-decoration: none; margin: 5px;" />
-  </a>
+    <img alt="GitHub" width="24px" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" />
+  </a>&nbsp;&nbsp;
   <a href="https://www.gnu.org/software/bash/" target="_blank">
-    <img alt="Terminal" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" style="text-decoration: none; margin: 5px;" />
+    <img alt="Terminal" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
   </a>
 </p>
 
