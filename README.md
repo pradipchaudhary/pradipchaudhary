@@ -1,14 +1,9 @@
 
 ![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=brightgreen)
 
-
-
-### Hello! I'm Pradip Chaudhary <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
+### Hi there, <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
 
 Welcome to my GitHub profile! I'm an enthusiastic **[React Developer](https://reactjs.org/)** dedicated to crafting intuitive and dynamic web applications. With hands-on expertise in **React.js**, **JavaScript**, **TypeScript**, and **Node.js**, I excel in transforming complex concepts into seamless digital solutions.
-
-
-### 🚀 About Me
 
 As a **Full-Time [React Developer](https://reactjs.org/)**, I specialize in **creating elegant, responsive UIs** and **transforming designs** into engaging and user-friendly experiences. Currently, I’m exploring the latest advancements in **[Next.js](https://nextjs.org/)** and **[TypeScript](https://www.typescriptlang.org/)**, while applying my skills in **[UI/UX Design](https://www.smashingmagazine.com/category/uiux)**, **[SEO](https://moz.com/beginners-guide-to-seo)**, and **[Web Scraping](https://scrapy.org/)** to deliver **high-impact solutions**. My proficiency in modern frameworks like **[Bulma](https://bulma.io/)**, **[Bootstrap](https://getbootstrap.com/)**, and **[Tailwind CSS](https://tailwindcss.com/)** ensures that my projects are both functional and visually compelling.
 
