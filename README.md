@@ -1,6 +1,7 @@
 ### Hi there, I'm Pradip Chaudhary <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
 
-A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" src="https://img.shields.io/badge/Full_Stack-Developer-brightgreen" /></a> 🚀 with a special interest in Frontend technologies. With extensive experience in building dynamic web applications using JavaScript, React.js, Node.js, TypeScript, and other cutting-edge libraries and frameworks, I thrive on transforming ideas into engaging digital experiences.
+
+Welcome to my GitHub profile! I’m a dedicated **[Full Stack Developer](https://www.pradipchaudhary.com.np)** with a passion for crafting seamless and interactive web applications. With extensive experience in **React.js**, **JavaScript**, **TypeScript**, and **Node.js**, I thrive on turning complex ideas into exceptional digital experiences.
 
 ### 🚀 What I Do
 
