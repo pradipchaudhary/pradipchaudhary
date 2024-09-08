@@ -3,8 +3,9 @@
 
 Welcome to my GitHub profile! I’m a dedicated **[Full Stack Developer](https://www.pradipchaudhary.com.np)** with a passion for crafting seamless and interactive web applications. With extensive experience in **React.js**, **JavaScript**, **TypeScript**, and **Node.js**, I thrive on turning complex ideas into exceptional digital experiences.
 
-As a **Full-Time React.js Developer**, I specialize in creating seamless, responsive UIs and transforming designs into engaging web experiences. Currently exploring **Next.js** and **TypeScript**, I leverage my expertise in **UI/UX design**, **SEO**, and **web scraping** to deliver client-focused, high-performance solutions. My skills in **graphic design integration** and modern web technologies, including **Bulma**, **Bootstrap**, and **Tailwind CSS**, ensure that I craft both functional and visually stunning applications.
+### About Me
 
+As a Full-Time [React.js Developer](https://reactjs.org/), I specialize in creating seamless, responsive UIs and transforming designs into engaging web experiences. Currently exploring [Next.js](https://nextjs.org/) and [TypeScript](https://www.typescriptlang.org/), I leverage my expertise in [UI/UX design](https://www.smashingmagazine.com/category/uiux) and [SEO](https://moz.com/beginners-guide-to-seo), along with [web scraping](https://scrapy.org/), to deliver client-focused, high-performance solutions. My skills in graphic design integration and modern web technologies, including [Bulma](https://bulma.io/), [Bootstrap](https://getbootstrap.com/), and [Tailwind CSS](https://tailwindcss.com/), ensure that I craft both functional and visually stunning applications.
 
 
 ### 🛠️ Languages and Tools:
