@@ -1,5 +1,3 @@
-
-
 ### Hi there, I'm Pradip Chaudhary <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
 
 A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" src="https://img.shields.io/badge/Full_Stack-Developer-brightgreen" /></a> 🚀 with a special interest in Frontend technologies. With extensive experience in building dynamic web applications using JavaScript, React.js, Node.js, TypeScript, and other cutting-edge libraries and frameworks, I thrive on transforming ideas into engaging digital experiences.
@@ -41,8 +39,12 @@ A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" sr
 
 ### 📫 Let's Connect!
 
-[![Twitter](https://img.shields.io/twitter/follow/pradipchaudhary?label=%40pradipchaudhary&style=social)](https://twitter.com/pradipchaudhary)
-[![Github](https://img.shields.io/github/followers/pradipchaudhary?style=social&label=Follow)](https://github.com/pradipchaudhary)
-![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=lightgrey)
+[![Twitter Follow](https://img.shields.io/twitter/follow/pradipchaudhary?label=%40pradipchaudhary&style=social&logo=twitter&color=1DA1F2)](https://twitter.com/pradipchaudhary)
+[![GitHub Follow](https://img.shields.io/github/followers/pradipchaudhary?style=social&logo=github&color=181717)](https://github.com/pradipchaudhary)
+[![LinkedIn Follow](https://img.shields.io/badge/-LinkedIn-blue?style=social&logo=linkedin&color=0077B5)](https://linkedin.com/in/pradipchaudhary)
+[![Instagram Follow](https://img.shields.io/badge/-Instagram-purple?style=social&logo=instagram&color=E4405F)](https://instagram.com/pradipchaudhary)
+[![Facebook Follow](https://img.shields.io/badge/-Facebook-blue?style=social&logo=facebook&color=1877F2)](https://facebook.com/pradipchaudhary)
 
-*Feel free to reach out if you have any exciting projects or collaboration opportunities!*
+![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=yello)
+
+_Feel free to reach out if you have any exciting projects or collaboration opportunities!_
