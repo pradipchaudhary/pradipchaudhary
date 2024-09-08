@@ -77,4 +77,4 @@ As a Full-Time [React.js Developer](https://reactjs.org/), I specialize in creat
 
 ![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=green)
 
-_Feel free to reach out if you have any exciting projects or collaboration opportunities!_
+>Feel free to reach out if you have any exciting projects or collaboration opportunities!
