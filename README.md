@@ -4,14 +4,14 @@ A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" sr
 
 ### 🚀 What I Do
 
--   **Full-Time React.js Developer**: Crafting seamless and efficient user interfaces.
--   **Learning and Growing**: Currently exploring Next.js and TypeScript to expand my skill set.
--   **Responsive Design Specialist**: Expertise in creating rapid and responsive designs.
--   **UI/UX Design**: Designing stunning layouts using Bulma, Bootstrap, Tailwind CSS, and Styled Components with Sass.
--   **SEO and Web Scraping**: Skilled in optimizing web applications for search engines and extracting valuable data.
--   **Client-Centric Approach**: Committed to understanding and addressing customer needs effectively.
--   **Web Development**: Converting mockups into functional web applications using HTML, React.js, Redux, and JSON.
--   **Graphic Design Integration**: Transforming graphic designs into interactive web elements using React.js.
+-   **Frontend Developer**: 🚀 Specializing in building highly efficient, scalable, and responsive UIs using **React.js** and other frontend frameworks.
+-   **Constant Learner**: 📚 Currently diving deep into **Next.js** and **TypeScript** to expand my frontend and full-stack capabilities.
+-   **Responsive Design Specialist**: 📱 Expert in creating fluid, responsive designs that work flawlessly across all devices.
+-   **UI/UX Enthusiast**: 🎨 Focused on designing intuitive user interfaces and improving user experience with tools like **Bulma**, **Bootstrap**, **Tailwind CSS**, and **Sass**.
+-   **SEO Optimization & Web Scraping**: 🔍 Adept at optimizing websites for search engines and using data extraction techniques for scraping valuable information.
+-   **Client-Centric Approach**: 🤝 Committed to understanding client requirements and delivering solutions that meet their needs efficiently.
+-   **Web Development**: 🌐 From converting designs into responsive, functional websites to implementing dynamic logic with **Redux**, **React.js**, and **JSON**.
+-   **Graphic Design Integration**: 🎨 Expertise in transforming static graphic designs into interactive and engaging web elements using **React.js**.
 
 
 ### 🛠️ Languages and Tools:
