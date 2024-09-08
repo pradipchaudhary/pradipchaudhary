@@ -3,16 +3,8 @@
 
 Welcome to my GitHub profile! I’m a dedicated **[Full Stack Developer](https://www.pradipchaudhary.com.np)** with a passion for crafting seamless and interactive web applications. With extensive experience in **React.js**, **JavaScript**, **TypeScript**, and **Node.js**, I thrive on turning complex ideas into exceptional digital experiences.
 
-### 🚀 What I Do
+As a **Full-Time React.js Developer**, I specialize in creating seamless, responsive UIs and transforming designs into engaging web experiences. Currently exploring **Next.js** and **TypeScript**, I leverage my expertise in **UI/UX design**, **SEO**, and **web scraping** to deliver client-focused, high-performance solutions. My skills in **graphic design integration** and modern web technologies, including **Bulma**, **Bootstrap**, and **Tailwind CSS**, ensure that I craft both functional and visually stunning applications.
 
--   **Frontend Developer**: 🚀 Specializing in building highly efficient, scalable, and responsive UIs using **React.js** and other frontend frameworks.
--   **Constant Learner**: 📚 Currently diving deep into **Next.js** and **TypeScript** to expand my frontend and full-stack capabilities.
--   **Responsive Design Specialist**: 📱 Expert in creating fluid, responsive designs that work flawlessly across all devices.
--   **UI/UX Enthusiast**: 🎨 Focused on designing intuitive user interfaces and improving user experience with tools like **Bulma**, **Bootstrap**, **Tailwind CSS**, and **Sass**.
--   **SEO Optimization & Web Scraping**: 🔍 Adept at optimizing websites for search engines and using data extraction techniques for scraping valuable information.
--   **Client-Centric Approach**: 🤝 Committed to understanding client requirements and delivering solutions that meet their needs efficiently.
--   **Web Development**: 🌐 From converting designs into responsive, functional websites to implementing dynamic logic with **Redux**, **React.js**, and **JSON**.
--   **Graphic Design Integration**: 🎨 Expertise in transforming static graphic designs into interactive and engaging web elements using **React.js**.
 
 
 ### 🛠️ Languages and Tools:
