@@ -5,7 +5,10 @@
 
 Welcome to my GitHub profile! I'm an enthusiastic **[React Developer](https://reactjs.org/)** dedicated to crafting intuitive and dynamic web applications. With hands-on expertise in **React.js**, **JavaScript**, **TypeScript**, and **Node.js**, I excel in transforming complex concepts into seamless digital solutions.
 
-As a **Full-Time [React Developer](https://reactjs.org/)**, I specialize in **creating elegant, responsive UIs** and **transforming designs** into engaging and user-friendly experiences. Currently, I’m exploring the latest advancements in **[Next.js](https://nextjs.org/)** and **[TypeScript](https://www.typescriptlang.org/)**, while applying my skills in **[UI/UX Design](https://www.smashingmagazine.com/category/uiux)**, **[SEO](https://moz.com/beginners-guide-to-seo)**, and **[Web Scraping](https://scrapy.org/)** to deliver **high-impact solutions**. My proficiency in modern frameworks like **[Bulma](https://bulma.io/)**, **[Bootstrap](https://getbootstrap.com/)**, and **[Tailwind CSS](https://tailwindcss.com/)** ensures that my projects are both functional and visually compelling.
+
+As a **Full-Time [React Developer](https://reactjs.org/)**, my expertise lies in creating **seamless and responsive UIs** and **transforming designs** into engaging web experiences. Currently, I'm diving deep into **[Next.js](https://nextjs.org/)** and **[TypeScript](https://www.typescriptlang.org/)**, leveraging my skills in **[UI/UX Design](https://www.smashingmagazine.com/category/uiux)** and **[SEO](https://moz.com/beginners-guide-to-seo)**, along with **[Web Scraping](https://scrapy.org/)**, to deliver **high-performance solutions** that meet client needs.
+
+My proficiency in modern web technologies, including **[Bulma](https://bulma.io/)**, **[Bootstrap](https://getbootstrap.com/)**, and **[Tailwind CSS](https://tailwindcss.com/)**, ensures that I craft applications that are not only functional but also visually stunning.
 
 
 ### 🛠️ Languages and Tools:
