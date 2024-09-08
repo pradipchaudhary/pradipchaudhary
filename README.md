@@ -1,3 +1,6 @@
+
+![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=brightgreen)
+
 ### Hi there, I'm Pradip Chaudhary <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
 
 
@@ -73,6 +76,6 @@ As a Full-Time [React.js Developer](https://reactjs.org/), I specialize in creat
 [![GitHub Follow](https://img.shields.io/github/followers/pradipchaudhary?style=social&logo=github&color=181717)](https://github.com/pradipchaudhary)
 [![LinkedIn Follow](https://img.shields.io/badge/-LinkedIn-blue?style=social&logo=linkedin&color=0077B5)](https://linkedin.com/in/pradipchaudhary)
 
-![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=brightgreen)
+
 
 >Feel free to reach out if you have any exciting projects or collaboration opportunities!
