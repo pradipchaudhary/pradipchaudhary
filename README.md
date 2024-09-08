@@ -1,10 +1,15 @@
 
 ![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=brightgreen)
 
-### Hi there, I'm Pradip Chaudhary <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
 
 
-Welcome to my GitHub profile! I’m a dedicated **[Full Stack Developer](https://www.pradipchaudhary.com.np)** with a passion for crafting seamless and interactive web applications. With extensive experience in **React.js**, **JavaScript**, **TypeScript**, and **Node.js**, I thrive on turning complex ideas into exceptional digital experiences.
+## Hello! I'm Pradip Chaudhary 👋 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
+
+Welcome to my GitHub profile! I'm an enthusiastic **[React Developer](https://reactjs.org/)** dedicated to crafting intuitive and dynamic web applications. With hands-on expertise in **React.js**, **JavaScript**, **TypeScript**, and **Node.js**, I excel in transforming complex concepts into seamless digital solutions.
+
+
+
+
 
 ### About Me
 
