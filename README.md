@@ -17,24 +17,25 @@ A passionate <a href="https://www.pradipchaudhary.com.np"><img align="center" sr
 ### 🛠️ Languages and Tools:
 
 <p align="left">
-  <a href="https://code.visualstudio.com/" target="_blank" title="Visual Studio Code"><img alt="Visual Studio Code" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" title="HTML5"><img alt="HTML5" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" title="CSS3"><img alt="CSS3" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" /></a>
-  <a href="https://sass-lang.com/" target="_blank" title="Sass"><img alt="Sass" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" title="JavaScript"><img alt="JavaScript" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /></a>
-  <a href="https://www.typescriptlang.org/" target="_blank" title="TypeScript"><img alt="TypeScript" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" /></a>
-  <a href="https://reactjs.org/" target="_blank" title="React"><img alt="React" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" /></a>
-  <a href="https://www.gatsbyjs.com/" target="_blank" title="Gatsby"><img alt="Gatsby" width="20px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/gatsby/gatsby.png" /></a>
-  <a href="https://graphql.org/" target="_blank" title="GraphQL"><img alt="GraphQL" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" /></a>
-  <a href="https://www.php.net/" target="_blank" title="PHP"><img alt="PHP" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png" /></a>
-  <a href="https://nodejs.org/" target="_blank" title="Node.js"><img alt="Node.js" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /></a>
-  <a href="https://www.mysql.com/" target="_blank" title="MySQL"><img alt="MySQL" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" /></a>
-  <a href="https://www.mongodb.com/" target="_blank" title="MongoDB"><img alt="MongoDB" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" /></a>
-  <a href="https://firebase.google.com/" target="_blank" title="Firebase"><img alt="Firebase" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" /></a>
-  <a href="https://git-scm.com/" target="_blank" title="Git"><img alt="Git" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" /></a>
-  <a href="https://github.com/" target="_blank" title="GitHub"><img alt="GitHub" width="20px" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" /></a>
-  <a href="https://www.gnu.org/software/bash/" target="_blank" title="Terminal"><img alt="Terminal" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" /></a>
+  <a href="https://code.visualstudio.com/" target="_blank" title="Visual Studio Code"><img alt="Visual Studio Code" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" style="margin-right: 10px;" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" title="HTML5"><img alt="HTML5" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" style="margin-right: 10px;" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" title="CSS3"><img alt="CSS3" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" style="margin-right: 10px;" /></a>
+  <a href="https://sass-lang.com/" target="_blank" title="Sass"><img alt="Sass" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" style="margin-right: 10px;" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" title="JavaScript"><img alt="JavaScript" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" style="margin-right: 10px;" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank" title="TypeScript"><img alt="TypeScript" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" style="margin-right: 10px;" /></a>
+  <a href="https://reactjs.org/" target="_blank" title="React"><img alt="React" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" style="margin-right: 10px;" /></a>
+  <a href="https://www.gatsbyjs.com/" target="_blank" title="Gatsby"><img alt="Gatsby" width="20px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/gatsby/gatsby.png" style="margin-right: 10px;" /></a>
+  <a href="https://graphql.org/" target="_blank" title="GraphQL"><img alt="GraphQL" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" style="margin-right: 10px;" /></a>
+  <a href="https://www.php.net/" target="_blank" title="PHP"><img alt="PHP" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png" style="margin-right: 10px;" /></a>
+  <a href="https://nodejs.org/" target="_blank" title="Node.js"><img alt="Node.js" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style="margin-right: 10px;" /></a>
+  <a href="https://www.mysql.com/" target="_blank" title="MySQL"><img alt="MySQL" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style="margin-right: 10px;" /></a>
+  <a href="https://www.mongodb.com/" target="_blank" title="MongoDB"><img alt="MongoDB" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" style="margin-right: 10px;" /></a>
+  <a href="https://firebase.google.com/" target="_blank" title="Firebase"><img alt="Firebase" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" style="margin-right: 10px;" /></a>
+  <a href="https://git-scm.com/" target="_blank" title="Git"><img alt="Git" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="margin-right: 10px;" /></a>
+  <a href="https://github.com/" target="_blank" title="GitHub"><img alt="GitHub" width="20px" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" style="margin-right: 10px;" /></a>
+  <a href="https://www.gnu.org/software/bash/" target="_blank" title="Terminal"><img alt="Terminal" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" style="margin-right: 10px;" /></a>
 </p>
+
 
 
 ### 📫 Let's Connect!
