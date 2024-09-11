@@ -3,7 +3,7 @@
 
 ### Hi there, <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
 
-Welcome to my GitHub profile! I'm an enthusiastic **[React Developer](https://reactjs.org/)** dedicated to crafting intuitive and dynamic web applications. With hands-on expertise in **React.js**, **JavaScript**, **TypeScript**, and **Node.js**, I excel in transforming complex concepts into seamless digital solutions.
+I'm an enthusiastic **[React Developer](https://reactjs.org/)** dedicated to crafting intuitive and dynamic web applications. With hands-on expertise in **React.js**, **JavaScript**, **TypeScript**, and **Node.js**, I excel in transforming complex concepts into seamless digital solutions.
 
 
 As a **Full-Time [React Developer](https://reactjs.org/)**, my expertise lies in creating **seamless and responsive UIs** and **transforming designs** into engaging web experiences. Currently, I'm diving deep into **[Next.js](https://nextjs.org/)** and **[TypeScript](https://www.typescriptlang.org/)**, leveraging my skills in **[UI/UX Design](https://www.smashingmagazine.com/category/uiux)** and **[SEO](https://moz.com/beginners-guide-to-seo)**, along with **[Web Scraping](https://scrapy.org/)**, to deliver **high-performance solutions** that meet client needs.
