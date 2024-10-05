@@ -1,7 +1,8 @@
 
 ![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=brightgreen)
 
-![Profile Views](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=#32a852)
+![Profile Views](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=brightgreen&label=Profile+Views)
+
 
 
 ### Hi there, <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
