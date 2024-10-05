@@ -1,7 +1,8 @@
 
 ![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=brightgreen)
 
-![Profile Views](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=brightgreen&label=Profile+Views)
+![Profile Views](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat&color=orange&label=Profile+Views)
+
 
 
 
