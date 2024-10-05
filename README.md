@@ -1,6 +1,9 @@
 
 ![](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=brightgreen)
 
+![Profile Views](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=#32a852)
+
+
 ### Hi there, <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
 
 I'm an enthusiastic **[React Developer](https://reactjs.org/)** dedicated to crafting intuitive and dynamic web applications. With hands-on expertise in **React.js**, **JavaScript**, **TypeScript**, and **Node.js**, I excel in transforming complex concepts into seamless digital solutions.
