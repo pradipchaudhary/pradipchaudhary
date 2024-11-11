@@ -1,5 +1,5 @@
 
-![Profile Views](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat&color=orange&label=Profile+Views)
+![Profile Views](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat&color=green&label=Profile+Views)
 
 
 
