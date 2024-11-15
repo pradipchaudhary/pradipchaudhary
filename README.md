@@ -1,18 +1,12 @@
-
-![Profile Views](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat&color=green&label=Profile+Views)
-
-
-
+![Profile Views](https://komarev.com/ghpvc/?username=pradipchaudhary&style=flat-square&color=E4827B&label=Profile+Views)
 
 ### Hi there, <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
 
 I'm an enthusiastic **[React Developer](https://reactjs.org/)** dedicated to crafting intuitive and dynamic web applications. With hands-on expertise in **React.js**, **JavaScript**, **TypeScript**, and **Node.js**, I excel in transforming complex concepts into seamless digital solutions.
 
-
 As a **Full-Time [React Developer](https://reactjs.org/)**, my expertise lies in creating **seamless and responsive UIs** and **transforming designs** into engaging web experiences. Currently, I'm diving deep into **[Next.js](https://nextjs.org/)** and **[TypeScript](https://www.typescriptlang.org/)**, leveraging my skills in **[UI/UX Design](https://www.smashingmagazine.com/category/uiux)** and **[SEO](https://moz.com/beginners-guide-to-seo)**, along with **[Web Scraping](https://scrapy.org/)**, to deliver **high-performance solutions** that meet client needs.
 
 My proficiency in modern web technologies, including **[Bulma](https://bulma.io/)**, **[Bootstrap](https://getbootstrap.com/)**, and **[Tailwind CSS](https://tailwindcss.com/)**, ensures that I craft applications that are not only functional but also visually stunning.
-
 
 ### 🛠️ Languages and Tools:
 
@@ -36,15 +30,10 @@ My proficiency in modern web technologies, including **[Bulma](https://bulma.io/
     <img alt="Terminal" width="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 </p>
 
-
-
-
 ### 📫 Let's Connect!
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/pradipchaudhary?label=%40pradipchaudhary&style=social&logo=twitter&color=1DA1F2)](https://twitter.com/pradipchaudhary)
 [![GitHub Follow](https://img.shields.io/github/followers/pradipchaudhary?style=social&logo=github&color=181717)](https://github.com/pradipchaudhary)
 [![LinkedIn Follow](https://img.shields.io/badge/-LinkedIn-blue?style=social&logo=linkedin&color=0077B5)](https://linkedin.com/in/pradipchaudhary)
 
-
-
->Feel free to reach out if you have any exciting projects or collaboration opportunities!
+> Feel free to reach out if you have any exciting projects or collaboration opportunities!
