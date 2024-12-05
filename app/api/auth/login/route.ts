@@ -1,62 +1,80 @@
 import { NextResponse } from "next/server";
-import { compare } from "bcryptjs";
 import { prisma } from "@/lib/prisma";
-import { sign } from "jsonwebtoken";
+import { generateToken } from "@/lib/auth";
+import bcrypt from "bcryptjs";
 
 export async function POST(req: Request) {
     try {
-        const { email, password } = await req.json();
+        let body;
+        try {
+            body = await req.json();
+        } catch {
+            return NextResponse.json(
+                { error: "Invalid request body" },
+                { status: 400 }
+            );
+        }
 
-        // Find user by email
+        const { email, password } = body;
+
+        if (!email || !password) {
+            return NextResponse.json(
+                { error: "Email and password are required" },
+                { status: 400 }
+            );
+        }
+
+        // Find user
         const user = await prisma.user.findUnique({
             where: { email },
         });
 
         if (!user) {
             return NextResponse.json(
-                { message: "Invalid credentials" },
+                { error: "Invalid credentials" },
                 { status: 401 }
             );
         }
 
         // Verify password
-        const isValidPassword = await compare(password, user.password);
-        if (!isValidPassword) {
+        const isValid = await bcrypt.compare(password, user.password);
+        if (!isValid) {
             return NextResponse.json(
-                { message: "Invalid credentials" },
+                { error: "Invalid credentials" },
                 { status: 401 }
             );
         }
 
-        // Create JWT token
-        const token = sign(
-            { userId: user.id, email: user.email, role: user.role },
-            process.env.JWT_SECRET || "fallback-secret-key",
-            { expiresIn: "1d" }
-        );
+        // Generate token
+        const tokenResult = await generateToken(user);
+        if (!tokenResult.success || !tokenResult.token) {
+            return NextResponse.json(
+                { error: "Login failed" },
+                { status: 500 }
+            );
+        }
 
-        // Remove password from the user object
-        const { password: _, ...userWithoutPassword } = user;
-
-        // Set HttpOnly cookie for the token
-        return NextResponse.json(
-            {
-                message: "Login successful",
-                user: userWithoutPassword,
-                token,
+        const response = NextResponse.json({
+            message: "Login successful",
+            user: {
+                id: user.id,
+                email: user.email,
+                role: user.role,
             },
-            {
-                status: 200,
-                headers: {
-                    "Set-Cookie": `token=${token}; Path=/; HttpOnly; SameSite=Strict; Secure`,
-                },
-            }
-        );
+        });
+
+        // Set cookie in response
+        response.cookies.set("admin-token", tokenResult.token, {
+            httpOnly: true,
+            secure: false,
+            sameSite: "lax",
+            path: "/",
+            maxAge: 24 * 60 * 60,
+        });
+
+        return response;
     } catch (error) {
-        console.error("Login error:", error);
-        return NextResponse.json(
-            { message: "Login failed, please try again" },
-            { status: 500 }
-        );
+        console.error("[LOGIN]", error);
+        return NextResponse.json({ error: "Login failed" }, { status: 500 });
     }
 }

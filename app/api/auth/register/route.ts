@@ -33,7 +33,12 @@ export async function POST(req: Request) {
             },
         });
 
-        const { password: _, ...result } = user;
+        const result = {
+            id: user.id,
+            username: user.username,
+            email: user.email,
+            role: user.role,
+        };
 
         return NextResponse.json(
             {

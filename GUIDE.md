@@ -72,3 +72,9 @@ export const prisma =
 
 if (process.env.NODE_ENV !== "production") globalForPrisma.prisma = prisma;
 ```
+
+# Install
+
+```
+npm install yup @hookform/resolvers react-hook-form axios
+```
