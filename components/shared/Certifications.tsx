@@ -44,10 +44,10 @@ const certificationsData: CertificationItem[] = [
 const Certifications: React.FC = () => {
     return (
         <section id="certifications" className="py-10">
-            <h2 className="text-2xl font-bold text-gray-400">
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-200">
                 📜 Certifications
             </h2>
-            <div className="relative border-l border-gray-600 pl-6 ml-4 pt-10">
+            <div className="relative border-l border-gray-600 pl-6 ml-[1.4rem] pt-10">
                 {certificationsData.map((item, index) => (
                     <div
                         key={index}
@@ -66,7 +66,10 @@ const Certifications: React.FC = () => {
                         <ul className="list-disc ml-6 space-y-2">
                             {item.certifications.map(
                                 (certification, certIndex) => (
-                                    <li key={certIndex} className="text-sm">
+                                    <li
+                                        key={certIndex}
+                                        className="text-xs sm:text-sm text-slate-400 leading-relaxed group-hover:text-slate-300"
+                                    >
                                         {certification}
                                     </li>
                                 )
