@@ -46,55 +46,28 @@ model Certification {
 }
 
 model Project {
-  id           Int       @id @default(autoincrement()) // Neon supports autoincrement for integers
-  name         String
-  description  String?
-  startDate    DateTime
-  dueDate      DateTime?
-  tags         String[]  // PostgreSQL stores arrays natively
-  status       Status    @default(PLANNING)
-  externalLink String?   @db.Text // Use Text for large strings (PostgreSQL recommendation)
-  attachments  String[]  // Store file paths or URLs
-  createdAt    DateTime  @default(now())
-  updatedAt    DateTime  @updatedAt
-}
-
-enum Status {
-  PLANNING
-  IN_PROGRESS
-  COMPLETED
-}
-
-model Blog {
-    id          Int       @id @default(autoincrement())
+    id          String   @id @default(cuid())
     title       String
-    content     String    @db.Text
-    slug        String    @unique
-    excerpt     String?   @db.Text
-    coverImage  String?
-    published   Boolean   @default(false)
-    tags        String[]
-    createdAt   DateTime  @default(now())
-    updatedAt   DateTime  @updatedAt
-    author      User      @relation(fields: [authorId], references: [id])
-    authorId    String
+    description String
+    content     String   @db.Text
+    image       String
+    technologies String[]
+    liveUrl     String?
+    githubUrl   String?
+    featured    Boolean  @default(false)
+    gallery     String[]
+    challenges  String[]
+    solutions   String[]
+    timeline    String
+    role        String
+    team        String[]
+    slug        String   @unique
+    status      String
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime @updatedAt
 
-    @@index([authorId])
+    @@map("projects")
 }
 
-model Experience {
-    id          Int       @id @default(autoincrement())
-    position    String
-    company     String
-    location    String?
-    type        String    // Full-time, Part-time, Contract, etc.
-    startDate   DateTime
-    endDate     DateTime?
-    current     Boolean   @default(false)
-    description String    @db.Text
-    skills      String[]
-    logo        String?   // Company logo URL
-    website     String?   // Company website
-    createdAt   DateTime  @default(now())
-    updatedAt   DateTime  @updatedAt
-}
+
+

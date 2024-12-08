@@ -7,15 +7,15 @@ interface ListItemProps {
 
 const ListItem: React.FC<ListItemProps> = ({ text }) => {
     return (
-        <li className="flex items-start text-base leading-6 group rounded-lg transition duration-300 ">
-            <span className="mr-1 mt-0.5 flex items-center justify-center w-5 h-5">
+        <li className="flex items-start group rounded-lg transition-all duration-300">
+            <span className="mr-3 mt-1.5 flex-shrink-0">
                 <svg
-                    width={14}
-                    height={14}
+                    width={12}
+                    height={12}
                     viewBox="0 0 20 20"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="gradient-to-r from-indigo-500 to-purple-600 rounded-full shadow-lg"
+                    className="text-[#6f49d8]"
                 >
                     <g clipPath="url(#clip0_980_24852)">
                         <path
@@ -34,7 +34,7 @@ const ListItem: React.FC<ListItemProps> = ({ text }) => {
                     </defs>
                 </svg>
             </span>
-            <span className="flex-1  transition duration-300 text-sm hover:text-slate-400">
+            <span className="text-xs sm:text-sm text-slate-400 leading-relaxed group-hover:text-slate-300">
                 {text}
             </span>
         </li>
@@ -59,28 +59,32 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
     responsibilities,
 }) => {
     return (
-        <div className="mb-2 pt-12 flex items-start relative fade-up">
-            {/* Circle for Timeline Marker */}
-
-            <div className="flex justify-center items-center bg-[#111115] left-[-5px] top-2">
-                <div className="relative">
-                    <div className="w-[.75rem] h-[.75rem] bg-gradient-to-r from-blue-500 to-purple-500 rounded-full absolute top-[.4rem] left-[-7px] transform animate-beat"></div>
-                    <div className="w-[.75rem] h-[.75rem] bg-gradient-to-r from-blue-500 to-purple-500 rounded-full absolute top-[.4rem] left-[-7px] transform animate-echo"></div>
-                </div>
+        <div className="relative pt-16 pl-8 before:absolute before:left-0 before:top-0 before:h-full before:w-[2px] before:bg-[#6f49d8]/20">
+            {/* Timeline Dot */}
+            <div className="absolute left-[-5.5px] top-[5.25rem] sm:top-[5.55rem] h-3 w-3">
+                <div className="h-full w-full rounded-full bg-[#6f49d8] ring-[6px] ring-[#6f49d8]/10" />
             </div>
 
-            <div className="ml-7">
-                <div className="flex items-center mb-1">
-                    <h3 className="text-lg font-semibold text-gray-300">
+            <div className="space-y-4">
+                <div>
+                    <h3 className="text-lg sm:text-xl font-bold text-slate-200 mb-1">
                         {title}
                     </h3>
-                    <span className="text-sm text-gray-400 ml-4">{period}</span>
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 text-sm text-slate-400">
+                        <span className="font-medium">{company}</span>
+                        {description && (
+                            <>
+                                <span className="hidden sm:inline">•</span>
+                                <span>{description}</span>
+                            </>
+                        )}
+                    </div>
+                    <div className="mt-1 text-xs sm:text-sm text-slate-500">
+                        {period}
+                    </div>
                 </div>
-                <p className="text-base text-[#8176a1] mb-3">
-                    <strong className="font-medium">{company}</strong> -{" "}
-                    {description}
-                </p>
-                <ul className="list-disc text-sm text-gray-400 space-y-2">
+
+                <ul className="space-y-3">
                     {responsibilities.map((task, index) => (
                         <ListItem key={index} text={task} />
                     ))}
@@ -95,25 +99,11 @@ const Experience: React.FC = () => {
     // Experience data array
     const experiences = [
         {
-            title: "Associate Founder",
-            company: "Plus2note",
-            companyUrl: "https://www.plus2note.com",
-            period: "Aug 2021 - Apr 2024",
-            description: "AI startup revolutionizing intelligent solutions.",
-            responsibilities: [
-                "Spearheaded the development of AI-driven web platforms using React, Node.js, and MongoDB, delivering scalable and user-centric solutions.",
-                "Integrated advanced machine learning models into applications, driving automation and enhancing user engagement.",
-                "Optimized system performance, achieving up to 50% faster load times and ensuring scalability for high traffic demands.",
-                "Led cross-functional collaboration to innovate and launch impactful AI-powered products.",
-            ],
-            markerColor: "bg-teal-400",
-        },
-        {
             title: "Full Stack Developer",
             company: "Sarathi Technosoft Pvt. Ltd",
             companyUrl: "https://www.sarathitechnosoft.com",
             period: "Aug 2021 - Apr 2024",
-            description: "A leading web solutions provider.",
+            description: "",
             responsibilities: [
                 "Built and maintained dynamic web applications using React, Node.js, and MongoDB or MySQL.",
                 "Collaborated with cross-functional teams to design and implement new features.",
@@ -153,26 +143,27 @@ const Experience: React.FC = () => {
     ];
 
     return (
-        <section id="experience" className="py-7 my-4 ">
-            <h2 className="text-2xl font-bold text-gray-400 ">💼 Experience</h2>
+        <section className="py-16" id="experience">
+            <div className="space-y-1">
+                <div className="space-y-2">
+                    <h2 className="text-2xl sm:text-3xl font-bold text-slate-200">
+                        💼 Experience
+                    </h2>
+                    <p className="text-xs sm:text-sm text-slate-500 ml-12">
+                        My professional journey and roles
+                    </p>
+                </div>
 
-            {/* Timeline */}
-            <div className="relative pl-4">
-                {/* Vertical Line on Left Side */}
-                <div className="absolute left-[.9rem] w-[0.13rem] bg-[#4b2f9663] h-full"></div>
-
-                {/* Map over experiences */}
-                {experiences.map((exp, index) => (
-                    <ExperienceItem
-                        key={index}
-                        title={exp.title}
-                        company={exp.company}
-                        period={exp.period}
-                        description={exp.description}
-                        responsibilities={exp.responsibilities}
-                        markerColor={exp.markerColor}
-                    />
-                ))}
+                <div
+                    className="pl-5"
+                    style={{
+                        marginTop: "-34px",
+                    }}
+                >
+                    {experiences.map((exp, index) => (
+                        <ExperienceItem key={index} {...exp} />
+                    ))}
+                </div>
             </div>
         </section>
     );
