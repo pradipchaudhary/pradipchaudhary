@@ -14,87 +14,11 @@ datasource db {
 }
 
 
-
-model User {
-  id         String   @id @default(uuid())
-  username   String   @unique
-  email      String   @unique
-  password   String
-  role       Role     @default(USER)
-  createdAt  DateTime @default(now()) @map("created_at")
-  updatedAt  DateTime @updatedAt @map("updated_at")
-
-  @@map("users")
-}
-
-enum Role {
-  USER
-  ADMIN
-}
-
-model Certification {
-  id             Int      @id @default(autoincrement())
-  name           String   // Certification Name
-  issuer         String   // Issuing Organization
-  issueDate      DateTime // Issue Date
-  expiryDate     DateTime? // Expiry Date (Optional)
-  credentialId   String?  // Credential ID (Optional)
-  credentialUrl  String?  // Credential URL (Optional)
-  imageUrl       String?  // URL for uploaded image
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
-}
-
-model Project {
-  id           Int       @id @default(autoincrement()) // Neon supports autoincrement for integers
-  name         String
-  description  String?
-  startDate    DateTime
-  dueDate      DateTime?
-  tags         String[]  // PostgreSQL stores arrays natively
-  status       Status    @default(PLANNING)
-  externalLink String?   @db.Text // Use Text for large strings (PostgreSQL recommendation)
-  attachments  String[]  // Store file paths or URLs
-  createdAt    DateTime  @default(now())
-  updatedAt    DateTime  @updatedAt
-}
-
-enum Status {
-  PLANNING
-  IN_PROGRESS
-  COMPLETED
-}
-
-model Blog {
-    id          Int       @id @default(autoincrement())
-    title       String
-    content     String    @db.Text
-    slug        String    @unique
-    excerpt     String?   @db.Text
-    coverImage  String?
-    published   Boolean   @default(false)
-    tags        String[]
-    createdAt   DateTime  @default(now())
-    updatedAt   DateTime  @updatedAt
-    author      User      @relation(fields: [authorId], references: [id])
-    authorId    String
-
-    @@index([authorId])
-}
-
-model Experience {
-    id          Int       @id @default(autoincrement())
-    position    String
-    company     String
-    location    String?
-    type        String    // Full-time, Part-time, Contract, etc.
-    startDate   DateTime
-    endDate     DateTime?
-    current     Boolean   @default(false)
-    description String    @db.Text
-    skills      String[]
-    logo        String?   // Company logo URL
-    website     String?   // Company website
-    createdAt   DateTime  @default(now())
-    updatedAt   DateTime  @updatedAt
+model Skill {
+    id           Int      @id @default(autoincrement())
+    name         String   @unique
+    percentage   Int
+    iconUrl      String?  // Optional field
+    isHighlighted Boolean
+    createdAt    DateTime @default(now())
 }
