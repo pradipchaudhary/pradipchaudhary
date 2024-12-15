@@ -14,6 +14,7 @@
     "axios": "^1.7.9",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+<<<<<<< HEAD
     "lucide-react": "^0.468.0",
     "next": "15.1.0",
     "pg": "^8.13.1",
@@ -22,6 +23,16 @@
     "react-redux": "^9.2.0",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7"
+=======
+    "framer-motion": "^11.13.1",
+    "jose": "^5.9.6",
+    "lucide-react": "^0.468.0",
+    "next": "15.0.3",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "tailwind-merge": "^2.5.5",
+    "zod": "^3.23.8"
+>>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

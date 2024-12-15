@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 "use client";
 
 import React, { useState } from "react";
+=======
+import React from "react";
+>>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
 import {
     Search,
     Bell,
@@ -8,6 +12,7 @@ import {
     ChevronDown,
     Menu,
     MessageSquare,
+<<<<<<< HEAD
     LogOut,
 } from "lucide-react";
 import Link from "next/link";
@@ -33,6 +38,14 @@ export default function TopBar() {
 
     return (
         <div className="sticky top-0 z-50 p-[0.38rem]  border-b border-[#2d2854]/30 backdrop-blur-sm bg-opacity-80">
+=======
+} from "lucide-react";
+import Link from "next/link";
+
+export default function TopBar() {
+    return (
+        <div className="sticky top-0 z-50 p-[0.38rem] bg-[#1d193e] border-b border-[#2d2854]/30 backdrop-blur-sm bg-opacity-80">
+>>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
             <div className="flex h-16 items-center justify-between px-6">
                 {/* Left Section */}
                 <div className="flex items-center gap-4">
@@ -78,6 +91,7 @@ export default function TopBar() {
                     <div className="hidden md:block h-6 w-px bg-[#2d2854]"></div>
 
                     {/* Profile Dropdown */}
+<<<<<<< HEAD
                     <div className="relative">
                         <button
                             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
@@ -128,6 +142,37 @@ export default function TopBar() {
                             </div>
                         )}
                     </div>
+=======
+                    <button
+                        className="flex items-center gap-3 p-1.5 hover:bg-[#2d2854] rounded-lg 
+                                     transition-all duration-300 group"
+                    >
+                        <div className="flex items-center gap-3">
+                            <div className="relative">
+                                <div
+                                    className="h-9 w-9 rounded-full bg-[#6f49d8]/20 ring-2 ring-[#6f49d8]/50 
+                                              flex items-center justify-center transition-all duration-300
+                                              group-hover:ring-[#6f49d8]/70"
+                                >
+                                    <User className="h-5 w-5 text-[#a893e9]" />
+                                </div>
+                                <div
+                                    className="absolute bottom-0 right-0 h-3 w-3 rounded-full 
+                                              border-2 border-[#1d193e] bg-emerald-500"
+                                ></div>
+                            </div>
+                            <div className="hidden md:block text-left">
+                                <div className="text-sm font-medium text-slate-200">
+                                    Admin User
+                                </div>
+                                <div className="text-xs text-slate-400">
+                                    admin@example.com
+                                </div>
+                            </div>
+                        </div>
+                        <ChevronDown className="h-4 w-4 text-slate-400 group-hover:text-slate-200 transition-colors" />
+                    </button>
+>>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
                 </div>
             </div>
 
