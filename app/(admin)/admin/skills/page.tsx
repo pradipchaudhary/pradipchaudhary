@@ -1,83 +1,83 @@
 "use client";
-
+import { fetchSkills } from "@/features/skills/skillSlice";
+import { AppDispatch, RootState } from "@/store/store";
+import { FilePenLine, Trash } from "lucide-react";
 import Link from "next/link";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 
-export default function SkillsPage() {
-    const skills = [
-        {
-            id: 1,
-            category: "Frontend",
-            skills: [
-                { name: "React", level: "Expert" },
-                { name: "Next.js", level: "Advanced" },
-                { name: "TypeScript", level: "Advanced" },
-            ],
-        },
-        {
-            id: 2,
-            category: "Backend",
-            skills: [
-                { name: "Node.js", level: "Advanced" },
-                { name: "Python", level: "Intermediate" },
-                { name: "PostgreSQL", level: "Advanced" },
-            ],
-        },
-    ];
+const SkillsPage = () => {
+    const dispatch = useDispatch<AppDispatch>();
+    const skillsAPIData = useSelector(
+        (state: RootState) => state.skills.skillsAPIData
+    );
+    const loading = useSelector((state: RootState) => state.skills.loading);
+    const error = useSelector((state: RootState) => state.skills.error);
+    const skills = skillsAPIData || [];
+
+    useEffect(() => {
+        dispatch(fetchSkills());
+    }, [dispatch]);
+
+    const handleDelete = (skillId) => {
+        // Implement the delete functionality here
+    };
 
     return (
-        <div className="space-y-6">
-            <div className="flex justify-between items-center">
-                <h1 className="text-2xl font-bold text-white">Skills</h1>
-                <Link
-                    href={"/admin/skills/create-new"}
-                    className="px-4 py-2 bg-[#1a2942] text-white rounded-lg hover:bg-[#243656] transition-colors"
-                >
-                    Add Skill
-                </Link>
-            </div>
-
-            <div className="space-y-6">
-                {skills.map((category) => (
-                    <div
-                        key={category.id}
-                        className="bg-[#0a1428] p-6 rounded-xl"
+        <>
+            <div className="p-6">
+                <div className="flex justify-between items-center">
+                    <h1 className="text-2xl font-bold text-white">Skills</h1>
+                    <Link
+                        href={"/admin/skills/new"}
+                        className="px-4 py-2 bg-[#1a2942] text-white rounded-lg hover:bg-[#243656] transition-colors"
                     >
-                        <div className="flex justify-between items-center mb-4">
-                            <h2 className="text-lg font-medium text-white">
-                                {category.category}
-                            </h2>
-                            <button className="text-sm text-blue-400 hover:text-blue-300">
-                                Add Skill
-                            </button>
-                        </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            {category.skills.map((skill, index) => (
-                                <div
-                                    key={index}
-                                    className="flex items-center justify-between p-4 bg-[#1a2942] rounded-lg"
-                                >
-                                    <div>
-                                        <p className="text-white">
-                                            {skill.name}
-                                        </p>
-                                        <p className="text-sm text-gray-400">
-                                            {skill.level}
-                                        </p>
-                                    </div>
-                                    <div className="flex gap-2">
-                                        <button className="text-gray-400 hover:text-white">
-                                            Edit
-                                        </button>
-                                        <button className="text-red-400 hover:text-red-300">
-                                            Delete
+                        Add Skill
+                    </Link>
+                </div>
+                <div className="mt-8 flex gap-8 flex-wrap">
+                    {loading && <div>Loading...</div>}
+                    {error && <div>Error: {error}</div>}
+
+                    {skills.length > 0 &&
+                        skills.map((skill) => (
+                            <div
+                                key={skill.id}
+                                className="p-6  bg-[#1c1c1c] rounded-lg  min-w-72"
+                            >
+                                <div className="flex justify-between place-items-start">
+                                    <h2 className="text-xl font-bold text-gray-400">
+                                        {skill.name}
+                                    </h2>
+                                    <div className="flex gap-4">
+                                        <Link
+                                            href={`/admin/skills/${skill.id}/edit`}
+                                            className="w-3 h-3 bg-[#1a2942] text-white rounded-lg hover:bg-[#243656] transition-colors"
+                                        >
+                                            <FilePenLine />
+                                        </Link>
+                                        <button
+                                            onClick={() =>
+                                                handleDelete(skill.id)
+                                            }
+                                            className="text-red-500 hover:text-red-600 transition-colors w-4 h-4"
+                                        >
+                                            <Trash />
                                         </button>
                                     </div>
                                 </div>
-                            ))}
-                        </div>
-                    </div>
-                ))}
+
+                                <div className="w-100 flex items-center justify-center py-4">
+                                    <h2 className="text-5xl m-4 font-bold text-gray-300">
+                                        {skill.percentage}
+                                    </h2>
+                                </div>
+                            </div>
+                        ))}
+                </div>
             </div>
-        </div>
+        </>
     );
-}
+};
+
+export default SkillsPage;

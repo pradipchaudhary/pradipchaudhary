@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+export default function Dashboard() {
+    return (
+        <div>
+            <h1>Dashboard</h1>
+=======
 "use client";
 
 import React from "react";
@@ -204,6 +210,7 @@ export default function AdminDashboard() {
                     </div>
                 </Card>
             </div>
+>>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
         </div>
     );
 }

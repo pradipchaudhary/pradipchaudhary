@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+<<<<<<< HEAD
+import CustomScroller from "@/components/shared/CustomScroller";
+import { StoreProvider } from "./StoreProvider";
+=======
 import { DataProvider } from "@/context/DataContext";
 import Stars from "@/components/shared/Stars";
 import CustomScroller from "@/components/shared/CustomScroller";
 import Footer from "@/components/shared/Footer";
+>>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +28,17 @@ export default function RootLayout({
             <body className={inter.className}>
                 <CustomScroller />
                 <div className="relative min-h-screen w-full">
+<<<<<<< HEAD
+                    {/* Main Content */}
+                    <div className="relative">
+                        <StoreProvider>{children}</StoreProvider>
+                        {/* <Provider store={store}>{children}</Provider> */}
+                        {/* {children} */}
+
+                        {/* <Provider store={store}>
+                            <Component {...pageProps} />
+                        </Provider> */}
+=======
                     {/* Fixed Background */}
                     <div className="fixed inset-0 overflow-hidden">
                         {/* Base Gradient */}
@@ -59,6 +75,7 @@ export default function RootLayout({
                     {/* Main Content */}
                     <div className="relative">
                         <DataProvider>{children}</DataProvider>
+>>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
                     </div>
                 </div>
             </body>

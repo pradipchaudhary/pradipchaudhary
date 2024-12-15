@@ -1,5 +1,5 @@
 {
-  "name": "pradipchaudhary",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,11 +10,20 @@
   },
   "dependencies": {
     "@prisma/client": "^6.0.1",
-    "@types/bcryptjs": "^2.4.6",
+    "@reduxjs/toolkit": "^2.5.0",
     "axios": "^1.7.9",
-    "bcryptjs": "^2.4.3",
-    "cloudinary": "^2.5.1",
+    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+<<<<<<< HEAD
+    "lucide-react": "^0.468.0",
+    "next": "15.1.0",
+    "pg": "^8.13.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
+=======
     "framer-motion": "^11.13.1",
     "jose": "^5.9.6",
     "lucide-react": "^0.468.0",
@@ -23,13 +32,15 @@
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "tailwind-merge": "^2.5.5",
     "zod": "^3.23.8"
+>>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.3",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.0",
     "postcss": "^8",
     "prisma": "^6.0.1",
     "tailwindcss": "^3.4.1",

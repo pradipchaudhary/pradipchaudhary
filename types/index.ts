@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+export interface Skill {
+    id?: number;
+    name: string;
+    percentage?: number;
+    iconUrl?: string;
+    isHighlighted: boolean;
+=======
 export interface Author {
     name: string;
     avatar: string;
@@ -35,4 +43,5 @@ export interface Project {
     status: string;
     createdAt: Date;
     updatedAt: Date;
+>>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
 }

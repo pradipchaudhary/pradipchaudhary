@@ -14,6 +14,16 @@ datasource db {
 }
 
 
+<<<<<<< HEAD
+model Skill {
+    id           Int      @id @default(autoincrement())
+    name         String   @unique
+    percentage   Int
+    iconUrl      String?  // Optional field
+    isHighlighted Boolean
+    createdAt    DateTime @default(now())
+}
+=======
 
 model User {
   id         String   @id @default(uuid())
@@ -71,3 +81,4 @@ model Project {
 
 
 
+>>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758

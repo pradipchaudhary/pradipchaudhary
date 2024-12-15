@@ -7,6 +7,10 @@ export default {
         "./app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
+<<<<<<< HEAD
+        extend: {},
+    },
+=======
         extend: {
             colors: {
                 background: "var(--background)",
@@ -47,4 +51,5 @@ export default {
         },
     },
     plugins: [],
+>>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
 } satisfies Config;

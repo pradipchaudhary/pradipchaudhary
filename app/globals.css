@@ -2,26 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    --background: #0f172a;
-    --foreground: #ebebeb;
-}
-/* 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
-
 body {
-    color: var(--foreground);
-    background: var(--background);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100vw;
+<<<<<<< HEAD
+    background-color: #000;
+=======
 }
 
 @keyframes floatStar {
@@ -314,4 +303,5 @@ html {
         @apply bg-emerald-950/10 border-l-2 border-emerald-500
              rounded-r-lg p-4 my-6;
     }
+>>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
 }
