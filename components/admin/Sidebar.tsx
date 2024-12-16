@@ -56,19 +56,11 @@ export default function Sidebar() {
     ];
 
     return (
-<<<<<<< HEAD
         <aside className="lg:sticky min-w-[260px] top-0 h-screen bg-[#000000]/90 overflow-y-auto border-r border-[#2d2854]/30">
             <div className="flex flex-col h-full">
                 {/* Logo */}
                 <div className="p-6">
                     <h1 className="text-xl font-bold text-gray-200 flex items-center gap-2">
-=======
-        <aside className="lg:sticky min-w-[260px] top-0 h-screen bg-[#1d193e] overflow-y-auto border-r border-[#2d2854]/50">
-            <div className="flex flex-col h-full">
-                {/* Logo */}
-                <div className="p-6">
-                    <h1 className="text-xl font-bold text-white flex items-center gap-2">
->>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
                         <span className="text-[#6f49d8]">⚡</span>
                         Admin Panel
                     </h1>
@@ -86,13 +78,8 @@ export default function Sidebar() {
                                     className={`flex items-center justify-between px-4 py-3 rounded-lg transition-all duration-200
                                         ${
                                             isActive
-<<<<<<< HEAD
                                                 ? "bg-[#0a0a0a]/80 text-gray-200 shadow-lg"
                                                 : "text-gray-400 hover:bg-[#0a0a0a]/70 hover:text-white"
-=======
-                                                ? "bg-[#2d2854] text-white shadow-lg"
-                                                : "text-slate-400 hover:bg-[#2d2854]/50 hover:text-white"
->>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
                                         }`}
                                 >
                                     <div className="flex items-center gap-3">
@@ -109,20 +96,6 @@ export default function Sidebar() {
                                             {item.label}
                                         </span>
                                     </div>
-<<<<<<< HEAD
-=======
-                                    {item.badge && (
-                                        <span
-                                            className={`px-2 py-1 text-xs rounded-full ${
-                                                isActive
-                                                    ? "bg-[#6f49d8]/20 text-[#a893e9]"
-                                                    : "bg-[#2d2854] text-slate-400"
-                                            }`}
-                                        >
-                                            {item.badge}
-                                        </span>
-                                    )}
->>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
                                 </Link>
                             );
                         })}
@@ -130,32 +103,9 @@ export default function Sidebar() {
                 </nav>
 
                 {/* Bottom Section */}
-<<<<<<< HEAD
                 <div className="p-4 ">
                     {/* Profile Section */}
                     <div className="p-4 rounded-lg bg-[#7777]/10">
-=======
-                <div className="p-4 border-t border-[#2d2854]/50">
-                    <div className="space-y-1 mb-4">
-                        {bottomMenuItems.map((item) => (
-                            <Link
-                                key={item.href}
-                                href={item.href}
-                                className="flex items-center px-4 py-3 rounded-lg text-slate-400 hover:bg-[#2d2854]/50 hover:text-white transition-all duration-200"
-                            >
-                                <span className="text-xl opacity-75 mr-3">
-                                    {item.icon}
-                                </span>
-                                <span className="font-medium">
-                                    {item.label}
-                                </span>
-                            </Link>
-                        ))}
-                    </div>
-
-                    {/* Profile Section */}
-                    <div className="p-4 rounded-lg bg-[#2d2854]">
->>>>>>> 377f9ee246fe13d105dbf942f4f33b239451a758
                         <div className="flex items-center gap-3">
                             <div className="w-10 h-10 rounded-full bg-[#6f49d8]/20 flex items-center justify-center text-[#a893e9] text-lg">
                                 👤
