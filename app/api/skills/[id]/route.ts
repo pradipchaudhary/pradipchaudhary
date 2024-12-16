@@ -1,7 +1,5 @@
-"use client";
 import { NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
-import React from "react";
 
 export async function GET(
     request: Request,
@@ -10,9 +8,6 @@ export async function GET(
     try {
         // Await the resolution of params
         const { id } = await params;
-
-        // asynchronous access of `params.id`.
-        // const { id } = React.use(params);
 
         const skill = await prisma.skill.findUnique({
             where: { id: Number(id) },
@@ -37,16 +32,16 @@ export async function PUT(
     { params }: { params: { id: string } }
 ) {
     try {
-        // Await params and validate the `id`
-        const id = params?.id;
+        // Await the `params` object
+        const { id } = await params;
 
+        // Validate the `id`
         if (!id || isNaN(Number(id))) {
             return NextResponse.json(
                 { error: "Invalid or missing ID in request parameters" },
                 { status: 400 }
             );
         }
-        console.log("Received ID:", id);
 
         // Parse the request body
         const body = await request.json();
@@ -58,13 +53,15 @@ export async function PUT(
         }
         console.log("Request body:", body);
 
-        // Extract and validate fields from the request body
+        // Extract fields from the request body
         const { name, percentage, iconUrl, isHighlighted } = body;
+
+        // Validate and build the update data object dynamically
         const updateData: { [key: string]: any } = {};
 
         if (name && typeof name === "string") updateData.name = name;
         if (percentage !== undefined && !isNaN(Number(percentage))) {
-            updateData.percentage = Number(percentage);
+            updateData.percentage = Number(percentage); // Ensure it's a number
         }
         if (iconUrl && typeof iconUrl === "string")
             updateData.iconUrl = iconUrl;
@@ -72,6 +69,7 @@ export async function PUT(
             updateData.isHighlighted = isHighlighted;
         }
 
+        // Ensure at least one valid field is provided for the update
         if (Object.keys(updateData).length === 0) {
             return NextResponse.json(
                 { error: "No valid fields provided for update" },
@@ -85,6 +83,7 @@ export async function PUT(
             data: updateData,
         });
 
+        // Respond with the updated record
         return NextResponse.json({
             message: "Skill updated successfully",
             skill: updatedSkill,
@@ -92,6 +91,7 @@ export async function PUT(
     } catch (error: any) {
         console.error("Error updating skill:", error);
 
+        // Handle Prisma-specific errors (optional)
         if (error.code === "P2025") {
             return NextResponse.json(
                 { error: "Skill not found for the given ID" },
@@ -99,6 +99,7 @@ export async function PUT(
             );
         }
 
+        // Generic server error response
         return NextResponse.json(
             { error: "Failed to update skill" },
             { status: 500 }
