@@ -36,7 +36,7 @@ export default function Sidebar() {
         {
             icon: <Braces />,
             label: "Experience",
-            href: "/admin/experience",
+            href: "/admin/experiences",
         },
         {
             icon: <Notebook />,
