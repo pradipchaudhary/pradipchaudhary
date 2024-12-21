@@ -10,5 +10,14 @@ CREATE TABLE "Skill" (
     CONSTRAINT "Skill_pkey" PRIMARY KEY ("id")
 );
 
+-- CreateTable
+CREATE TABLE "Certification" (
+    "id" SERIAL NOT NULL,
+    "certificationYear" INTEGER NOT NULL,
+    "achieveCertifications" TEXT[],
+
+    CONSTRAINT "Certification_pkey" PRIMARY KEY ("id")
+);
+
 -- CreateIndex
 CREATE UNIQUE INDEX "Skill_name_key" ON "Skill"("name");

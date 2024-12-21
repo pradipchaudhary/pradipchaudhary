@@ -1,10 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 import skillsSlice from "@/features/skills/skillSlice";
+import certificationsSlice from "@/features/certifications/certificationSlice";
 
 export const makeStore = () => {
     return configureStore({
         reducer: {
             skills: skillsSlice,
+            certifications: certificationsSlice,
         },
     });
 };
