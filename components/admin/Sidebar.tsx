@@ -56,7 +56,7 @@ export default function Sidebar() {
     ];
 
     return (
-        <aside className="lg:sticky min-w-[260px] top-0 h-screen bg-[#000000]/90 overflow-y-auto border-r border-[#2d2854]/30">
+        <aside className="lg:sticky min-w-[260px] top-0 h-screen overflow-y-auto border-r border-[#2d2854]/30">
             <div className="flex flex-col h-full">
                 {/* Logo */}
                 <div className="p-6">
@@ -67,7 +67,7 @@ export default function Sidebar() {
                 </div>
 
                 {/* Main Menu */}
-                <nav className="flex-1 p-4">
+                <nav className="flex-1 p-4 mt-10">
                     <div className="space-y-1">
                         {menuItems.map((item) => {
                             const isActive = pathname === item.href;
@@ -78,13 +78,13 @@ export default function Sidebar() {
                                     className={`flex items-center justify-between px-4 py-3 rounded-lg transition-all duration-200
                                         ${
                                             isActive
-                                                ? "bg-[#0a0a0a]/80 text-gray-200 shadow-lg"
-                                                : "text-gray-400 hover:bg-[#0a0a0a]/70 hover:text-white"
+                                                ? " text-gray-200 shadow-lg"
+                                                : "text-gray-400  hover:text-white"
                                         }`}
                                 >
                                     <div className="flex items-center gap-3">
                                         <span
-                                            className={`text-xl ${
+                                            className={`text-sm ${
                                                 isActive
                                                     ? "opacity-100"
                                                     : "opacity-75"
@@ -92,7 +92,7 @@ export default function Sidebar() {
                                         >
                                             {item.icon}
                                         </span>
-                                        <span className="font-medium">
+                                        <span className="text-sm">
                                             {item.label}
                                         </span>
                                     </div>
@@ -101,26 +101,6 @@ export default function Sidebar() {
                         })}
                     </div>
                 </nav>
-
-                {/* Bottom Section */}
-                <div className="p-4 ">
-                    {/* Profile Section */}
-                    <div className="p-4 rounded-lg bg-[#7777]/10">
-                        <div className="flex items-center gap-3">
-                            <div className="w-10 h-10 rounded-full bg-[#6f49d8]/20 flex items-center justify-center text-[#a893e9] text-lg">
-                                👤
-                            </div>
-                            <div>
-                                <p className="text-sm font-medium text-white">
-                                    Admin User
-                                </p>
-                                <p className="text-xs text-slate-400">
-                                    Administrator
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </aside>
     );

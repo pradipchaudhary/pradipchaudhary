@@ -147,7 +147,7 @@ const Create = () => {
                         placeholder="Enter year (e.g., 2023)"
                         value={formData.certificationYear}
                         onChange={(e) => handleYearChange(e.target.value)}
-                        className="w-full border px-3 py-2 rounded"
+                        className="w-72 rounded-lg border border-[#2d2854] bg-[#1d193e] p-4 py-2    text-sm text-slate-200 placeholder:text-slate-500    focus:border-[#6f49d8]/50 focus:outline-none focus:ring-1 focus:ring-[#6f49d8]/50   transition-all duration-300"
                         aria-label="Certification Year"
                     />
                     {errors.certificationYear && (
@@ -167,7 +167,7 @@ const Create = () => {
                                 <input
                                     type="text"
                                     placeholder="Enter your certification details..."
-                                    className="w-full border px-3 py-2 rounded"
+                                    className="w-full rounded-lg border border-[#2d2854] bg-[#1d193e] p-4 py-2    text-sm text-slate-200 placeholder:text-slate-500    focus:border-[#6f49d8]/50 focus:outline-none focus:ring-1 focus:ring-[#6f49d8]/50   transition-all duration-300"
                                     value={certification}
                                     onChange={(e) =>
                                         handleCertificationChange(
@@ -187,9 +187,26 @@ const Create = () => {
                                     onClick={() =>
                                         removeAchieveCertificationInput(index)
                                     }
-                                    className="ml-2 bg-red-600 text-white py-1 px-2 rounded hover:bg-red-700"
+                                    className="ml-2 text-white py-1 px-2 rounded hover:bg-red-700 "
                                 >
-                                    Remove
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        className="lucide lucide-trash-2"
+                                    >
+                                        <path d="M3 6h18" />
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                                        <line x1="10" x2="10" y1="11" y2="17" />
+                                        <line x1="14" x2="14" y1="11" y2="17" />
+                                    </svg>
                                 </button>
                             </div>
                         )
@@ -197,17 +214,55 @@ const Create = () => {
                     <button
                         type="button"
                         onClick={addAchieveCertificationInput}
-                        className="w-full bg-gray-200 text-gray-700 py-2 px-4 rounded hover:bg-gray-300"
+                        className=" bg-gray-200 text-gray-700 py-2 px-4 rounded hover:bg-gray-300 flex items-center gap-2 mt-4"
                     >
-                        Add More Certifications
+                        {" "}
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            className="lucide lucide-plus h-4 w-4"
+                        >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5v14"></path>
+                        </svg>{" "}
+                        Add Certifications
                     </button>
                 </div>
                 <button
                     type="submit"
-                    className="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700"
+                    className="flex items-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors mt-8"
                 >
                     Submit
                 </button>
+
+                {/* <a
+                    class="flex items-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors"
+                    href="/admin/experience/create-new"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        className="lucide lucide-plus h-4 w-4"
+                    >
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5v14"></path>
+                    </svg>
+                    <span>Add Experience</span>
+                </a> */}
             </form>
         </div>
     );

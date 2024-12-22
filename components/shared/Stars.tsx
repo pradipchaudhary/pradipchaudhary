@@ -29,17 +29,17 @@ const Stars = () => {
             brightness: number;
         }> = [];
 
-        // Create stars
+        // Create stars (decreasing the number of stars and slowing their speed)
         const createStars = () => {
             const numberOfStars = Math.floor(
-                (canvas.width * canvas.height) / 10000
+                (canvas.width * canvas.height) / 20000 // Increase the divisor to reduce the number of stars
             );
             for (let i = 0; i < numberOfStars; i++) {
                 stars.push({
                     x: Math.random() * canvas.width,
                     y: Math.random() * canvas.height,
                     size: Math.random() * 2,
-                    speed: Math.random() * 0.5 + 0.1,
+                    speed: Math.random() * 0.2 + 0.05, // Slowing down the speed by reducing the speed range
                     brightness: Math.random() * 0.5 + 0.5,
                 });
             }
@@ -53,7 +53,7 @@ const Stars = () => {
 
             // Draw and update stars
             stars.forEach((star) => {
-                // Update position
+                // Update position (slowing down the movement further)
                 star.y -= star.speed;
                 if (star.y < 0) {
                     star.y = canvas.height;
