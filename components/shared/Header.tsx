@@ -140,26 +140,30 @@ export default function Header() {
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-8 px-4">
             <div className="space-y-4">
                 <div className="space-y-3">
-                    <h1 className="relative pt-12 lg:pt-16 text-slate-400">
-                        <Link
-                            href="/"
-                            className="text-[2.55rem] font-bold leading-[2.75rem]"
-                        >
+                    <h1
+                        className="relative pt-12 lg:pt-16 text-slate-500"
+                        style={{
+                            fontSize: "2.3rem",
+                            lineHeight: "2.56rem",
+                            fontWeight: "600",
+                        }}
+                    >
+                        <Link href="/" className="">
                             Pradip
                             <span className="block">Chaudhary</span>
                         </Link>
                     </h1>
 
                     <h2
-                        className="text-sm font-medium tracking-tight text-[#6f49d8] sm:text-base lg:text-lg
+                        className="text-sm font-medium tracking-tight text-[#6546bb] sm:text-base lg:text-lg
                                   hover:text-[#8b6ae5] transition-colors"
                     >
-                        Front End Engineer
+                        Web Developer
                     </h2>
 
                     <div className="mt-6 space-y-1">
                         <div
-                            className="text-xs sm:text-sm lg:text-base text-slate-400 leading-relaxed
+                            className="text-sm sm:text-sm lg:text-base text-slate-500 leading-relaxed
                                       max-w-sm"
                         >
                             I build accessible, pixel-perfect digital
@@ -171,7 +175,7 @@ export default function Header() {
                     className="hidden lg:block my-auto pt-10"
                     aria-label="Main navigation"
                 >
-                    <ul className="space-y-3">
+                    <ul className="space-y-1">
                         {menuItem.map((menu) => {
                             const isActive = pathname === menu.link;
 
@@ -179,12 +183,12 @@ export default function Header() {
                                 <li key={menu.name}>
                                     <Link
                                         href={menu.link}
-                                        className={`group flex flex-col gap-1.5 py-2 pr-3 rounded-lg
+                                        className={`group flex flex-col  py-1.5 pr-3 rounded-lg
                                               transition-all duration-300 ease-out
                                               ${
                                                   isActive
-                                                      ? "text-slate-100 "
-                                                      : "text-slate-400 hover:text-slate-200"
+                                                      ? "text-slate-600 "
+                                                      : "text-slate-600 hover:text-slate-300"
                                               }`}
                                     >
                                         <div className="flex items-center gap-3">

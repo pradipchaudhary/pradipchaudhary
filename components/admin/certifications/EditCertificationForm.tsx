@@ -5,7 +5,7 @@ import {
     updateCertification,
 } from "@/features/certifications/certificationSlice";
 import { AppDispatch, RootState } from "@/store/store";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -17,6 +17,7 @@ interface CertificationFormState {
 }
 
 const UpdateCertificationForm: React.FC = () => {
+    const router = useRouter();
     const dispatch = useDispatch<AppDispatch>(); // Typed dispatch
     const { id } = useParams<{ id: string }>(); // Retrieve ID from the route
 
@@ -54,12 +55,6 @@ const UpdateCertificationForm: React.FC = () => {
                 achieveCertifications:
                     certification.achieveCertifications || [],
             });
-            // console.log("Certification:", certification);
-            // console.log("certification id:", certification.id);
-            // console.log(
-            //     "certification year:",
-            //     certification.achieveCertifications
-            // );
         }
     }, [certification, id]);
 
@@ -120,17 +115,21 @@ const UpdateCertificationForm: React.FC = () => {
                     certification, // Pass the certification data as 'certification'
                 })
             );
+            router.push("/admin/certifications");
+            // routeModule
         } else {
             console.error("Form is incomplete or has missing fields");
         }
     };
 
     return (
-        <div>
-            <h1>Update Certification</h1>
+        <div className="mt-8 ml-4">
             <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="certificationYear">
+                <div className="mt-5">
+                    <label
+                        htmlFor="certificationYear"
+                        className="block font-medium mb-1 text-gray-400"
+                    >
                         Certification Year
                     </label>
                     <input
@@ -138,20 +137,14 @@ const UpdateCertificationForm: React.FC = () => {
                         id="certificationYear"
                         value={formState.certificationYear || ""}
                         onChange={handleYearChange}
+                        className="w-72 rounded-lg border border-[#2d2854] bg-[#1d193e] p-4 py-2    text-sm text-slate-200 placeholder:text-slate-500    focus:border-[#6f49d8]/50 focus:outline-none focus:ring-1 focus:ring-[#6f49d8]/50   transition-all duration-300"
                     />
                 </div>
 
-                <div>
+                <div className="mt-5">
                     <label>Achieve Certifications</label>
                     {formState.achieveCertifications.map((cert, index) => (
-                        <div
-                            key={index}
-                            style={{
-                                display: "flex",
-                                alignItems: "center",
-                                marginBottom: "8px",
-                            }}
-                        >
+                        <div key={index}>
                             <input
                                 type="text"
                                 value={cert}
@@ -161,6 +154,7 @@ const UpdateCertificationForm: React.FC = () => {
                                         e.target.value
                                     )
                                 }
+                                className="w-[95%] my-2 rounded-lg border border-[#2d2854] bg-[#1d193e] p-4 py-2    text-sm text-slate-200 placeholder:text-slate-500    focus:border-[#6f49d8]/50 focus:outline-none focus:ring-1 focus:ring-[#6f49d8]/50   transition-all duration-300"
                             />
                             <button
                                 type="button"
@@ -178,12 +172,7 @@ const UpdateCertificationForm: React.FC = () => {
                     <button
                         type="button"
                         onClick={addCertificationInput}
-                        style={{
-                            marginTop: "10px",
-                            padding: "5px 10px",
-                            backgroundColor: "lightblue",
-                            cursor: "pointer",
-                        }}
+                        className="bg-gray-200 text-gray-700 py-2 px-4 rounded hover:bg-gray-300 flex items-center gap-2 mt-4"
                     >
                         + Add Certification
                     </button>
@@ -191,14 +180,7 @@ const UpdateCertificationForm: React.FC = () => {
 
                 <button
                     type="submit"
-                    style={{
-                        marginTop: "20px",
-                        padding: "10px 20px",
-                        backgroundColor: "green",
-                        color: "white",
-                        border: "none",
-                        cursor: "pointer",
-                    }}
+                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors mt-8"
                 >
                     Update Certification
                 </button>

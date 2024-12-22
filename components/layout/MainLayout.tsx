@@ -15,8 +15,8 @@ export default function MainLayout({ children }: MainLayoutProps) {
                     id="content"
                     className="lg:w-full lg:pb-24 lg:pl-2 lg:pr-1"
                 >
-                    <header className="sticky top-0 left-0 w-full bg-gradient-to-b from-[#0f1026]/100 to-[#1b183c]/5 flex justify-between items-center h-24"></header>
-                    <div className="pt-[100px]">{children}</div>
+                    <header className="sticky top-0 left-0 w-full  flex justify-between items-center h-24"></header>
+                    <div className="">{children}</div>
                     <Footer />
                 </main>
             </div>

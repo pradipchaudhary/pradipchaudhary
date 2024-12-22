@@ -5,6 +5,7 @@ import {
     fetchCertifications,
 } from "@/features/certifications/certificationSlice";
 import { AppDispatch, RootState } from "@/store/store";
+import { Award, Pencil, ShieldCheck, Trash2 } from "lucide-react";
 import Link from "next/link";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -52,11 +53,71 @@ export default function CertificationsPage() {
                     {certificates.map((cert: any) => (
                         <div
                             key={cert.id}
-                            className="p-4 bg-[#1a2942] rounded-lg shadow-lg text-white"
+                            className="rounded-lg border text-card-foreground shadow-sm bg-[#2d2854]/50 border-[#2d2854] p-6 backdrop-blur-sm hover:bg-[#2d2854]/70 transition-all duration-300 group hover:border-[#6f49d8]/20 hover:shadow-lg"
                         >
-                            <h2 className="text-xl font-semibold">
-                                {cert.certificationYear || "No Year Provided"}
-                            </h2>
+                            <div className="mb-6 flex justify-between ">
+                                <h2 className="text-xl font-semibold">
+                                    {cert.certificationYear ||
+                                        "No Year Provided"}
+                                </h2>
+                                <div>
+                                    <button className="p-2 hover:bg-[#243656] rounded-lg transition-colors">
+                                        <Link
+                                            href={`/admin/certifications/${cert.id}/edit`}
+                                            className=""
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                className="lucide lucide-pen h-4 w-4 text-gray-400"
+                                            >
+                                                <path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"></path>
+                                            </svg>
+                                        </Link>
+                                    </button>
+
+                                    <button
+                                        onClick={() => handleDelete(cert.id)}
+                                        className="p-2 text-red-400 hover:bg-[#243656] rounded-lg transition-colors"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            className="lucide lucide-trash2 h-4 w-4 text-red-400"
+                                        >
+                                            <path d="M3 6h18"></path>
+                                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path>
+                                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path>
+                                            <line
+                                                x1="10"
+                                                x2="10"
+                                                y1="11"
+                                                y2="17"
+                                            ></line>
+                                            <line
+                                                x1="14"
+                                                x2="14"
+                                                y1="11"
+                                                y2="17"
+                                            ></line>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
 
                             <div className="mb-4">
                                 {cert.achieveCertifications.length > 0 && (
@@ -65,27 +126,20 @@ export default function CertificationsPage() {
                                             (skill: string, index: number) => (
                                                 <li
                                                     key={index}
-                                                    className="text-gray-400 text-sm"
+                                                    className="text-gray-400 text-sm flex gap-1 mt-2"
                                                 >
-                                                    {skill}
+                                                    <span className="h-6 w-6">
+                                                        <Award className="h-4 w-4 text-[#6f49d8] mt-[3px]" />
+                                                    </span>
+                                                    <span className="text-[0.8rem]">
+                                                        {skill}{" "}
+                                                    </span>
                                                 </li>
                                             )
                                         )}
                                     </ul>
                                 )}
                             </div>
-                            <Link
-                                href={`/admin/certifications/${cert.id}/edit`}
-                                className="px-4 py-2 bg-[#1a2942] text-white rounded-lg hover:bg-[#243656] transition-colors mr-2"
-                            >
-                                Edit
-                            </Link>
-                            <button
-                                onClick={() => handleDelete(cert.id)}
-                                className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
-                            >
-                                Delete
-                            </button>
                         </div>
                     ))}
                 </div>

@@ -7,7 +7,7 @@ export default function AdminLayout({
     children: React.ReactNode;
 }) {
     return (
-        <div className="flex  mx-auto min-h-screen max-w-7xl py-12  lg:py-0 border border-[#2d2854]/30">
+        <div className="flex  mx-auto min-h-screen max-w-7xl py-12  lg:py-0 ">
             {/* Sidebar */}
             <div className="g:flex lg:justify-between lg:gap-6 ">
                 <Sidebar />

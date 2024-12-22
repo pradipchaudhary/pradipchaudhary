@@ -1,8 +1,15 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const BlogForm: React.FC = () => {
+    const [content, setContent] = useState("");
+
+    const handleEditorChange = (value) => {
+        setContent(value); // Update state with editor content
+    };
+
     return (
-        <form className="max-w-lg mx-auto p-6 bg-white shadow-md rounded-md">
+        <form className=" shadow-md rounded-md">
             <h2 className="text-2xl font-bold mb-6 text-gray-800">
                 Create a New Blog
             </h2>
@@ -24,56 +31,6 @@ const BlogForm: React.FC = () => {
                 />
             </div>
 
-            {/* Excerpt */}
-            <div className="mb-4">
-                <label
-                    htmlFor="excerpt"
-                    className="block text-gray-700 font-medium mb-2"
-                >
-                    Excerpt
-                </label>
-                <textarea
-                    id="excerpt"
-                    name="excerpt"
-                    rows={4}
-                    className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
-                    placeholder="Write a short excerpt for the blog"
-                ></textarea>
-            </div>
-
-            {/* Date */}
-            <div className="mb-4">
-                <label
-                    htmlFor="date"
-                    className="block text-gray-700 font-medium mb-2"
-                >
-                    Date
-                </label>
-                <input
-                    type="date"
-                    id="date"
-                    name="date"
-                    className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
-                />
-            </div>
-
-            {/* Read Time */}
-            <div className="mb-4">
-                <label
-                    htmlFor="readTime"
-                    className="block text-gray-700 font-medium mb-2"
-                >
-                    Read Time
-                </label>
-                <input
-                    type="text"
-                    id="readTime"
-                    name="readTime"
-                    className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
-                    placeholder="e.g., 5 min read"
-                />
-            </div>
-
             {/* Slug */}
             <div className="mb-4">
                 <label
@@ -91,16 +48,75 @@ const BlogForm: React.FC = () => {
                 />
             </div>
 
+            {/* Excerpt */}
+            <div className="mb-4">
+                <label
+                    htmlFor="excerpt"
+                    className="block text-gray-700 font-medium mb-2"
+                >
+                    Excerpt
+                </label>
+                <textarea
+                    id="excerpt"
+                    name="excerpt"
+                    rows={4}
+                    className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    placeholder="Write a short excerpt for the blog"
+                ></textarea>
+            </div>
+            <div className="mb-4">
+                <label
+                    htmlFor="content"
+                    className="block text-gray-700 font-medium mb-2"
+                >
+                    Content
+                </label>
+            </div>
+
+            <div className="mb-4 grid grid-cols-2 gap-4 ">
+                {/* Date */}
+                <div>
+                    <label
+                        htmlFor="date"
+                        className="block text-gray-700 font-medium mb-2"
+                    >
+                        Date
+                    </label>
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    />
+                </div>
+                {/* Read Time */}
+                <div className="mb-4">
+                    <label
+                        htmlFor="readTime"
+                        className="block text-gray-700 font-medium mb-2"
+                    >
+                        Read Time
+                    </label>
+                    <input
+                        type="text"
+                        id="readTime"
+                        name="readTime"
+                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        placeholder="e.g., 5 min read"
+                    />
+                </div>
+            </div>
+
             {/* Thumbnail */}
             <div className="mb-4">
                 <label
                     htmlFor="thumbnail"
                     className="block text-gray-700 font-medium mb-2"
                 >
-                    Thumbnail URL
+                    Thumbnail
                 </label>
                 <input
-                    type="text"
+                    type="file"
                     id="thumbnail"
                     name="thumbnail"
                     className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
