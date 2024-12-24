@@ -1,79 +1,42 @@
 "use client";
 import React from "react";
 
+// Skill type with optional icon and proficiency
 interface Skill {
     name: string;
-    icon?: string; // For potential skill icons
-    proficiency?: number; // Optional proficiency level 1-100
+    icon?: string; // Optional icon for the skill
 }
 
-interface SkillCategory {
-    title: string;
-    skills: Skill[];
-}
-
-interface SkillsSectionProps {
-    title: string;
-    skills: Skill[];
-}
-
-const SkillsSection: React.FC<SkillsSectionProps> = ({ title, skills }) => {
-    return (
-        <div className="mb-6 pl-14">
-            <h3 className="text-lg font-semibold mb-3">{title}</h3>
-            <div className="flex flex-wrap gap-2">
-                {skills.map((skill, index) => (
-                    <span
-                        key={index}
-                        className="px-3 py-1 bg-slate-800 rounded text-sm"
-                    >
-                        {skill.name}
-                    </span>
-                ))}
-            </div>
-        </div>
-    );
-};
-
+// Main Skills component
 const Skills: React.FC = () => {
-    const skillCategories: SkillCategory[] = [
-        {
-            title: "Experienced",
-            skills: [
-                { name: "JavaScript" },
-                { name: "TypeScript" },
-                { name: "React.js" },
-                { name: "Node.js" },
-                { name: "PHP" },
-                { name: "MySQL" },
-                { name: "WordPress" },
-                { name: "MongoDB" },
-                { name: "Git" },
-            ],
-        },
-        {
-            title: "Familiar",
-            skills: [
-                { name: "Docker" },
-                { name: "Next.js" },
-                { name: "C++" },
-                { name: "Serverless" },
-            ],
-        },
+    const skills: Skill[] = [
+        { name: "JavaScript", icon: "/path/to/js-icon.png" },
+        { name: "TypeScript" },
+        { name: "React.js", icon: "/path/to/react-icon.png" },
+        { name: "Node.js" },
+        { name: "PHP" },
+        { name: "MySQL" },
+        { name: "WordPress" },
+        { name: "MongoDB" },
+        { name: "Git" },
     ];
 
     return (
         <section className="py-8" id="skills">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-slate-200">
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-400 mb-6">
                 🛠️ Skills
             </h2>
-            {skillCategories.map((category, index) => (
-                <SkillsSection
-                    key={index}
-                    title={category.title}
-                    skills={category.skills}
-                />
-            ))}
+            <div className="flex flex-wrap gap-4 mt-10 ml-10">
+                {skills.map((skill, index) => (
+                    <span
+                        key={index}
+                        className="flex items-center cursor-pointer gap-2 px-4 min-w-[80px] py-[.4rem] mb-2 border border-dotted border-[#2b275e] rounded-full text-sm text-slate-500 relative overflow-hidden hover:border-solid hover:animate-border"
+                    >
+                        <span className="absolute inset-0 border border-transparent transition-all duration-300 ease-linear rounded-full hover:border-[#2b275e]"></span>
+                        {skill.name}
+                    </span>
+                ))}
+            </div>
         </section>
     );
 };

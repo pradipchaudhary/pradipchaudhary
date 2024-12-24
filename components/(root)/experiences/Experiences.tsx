@@ -8,33 +8,8 @@ interface ListItemProps {
 const ListItem: React.FC<ListItemProps> = ({ text }) => {
     return (
         <li className="flex items-start group rounded-lg transition-all duration-300">
-            <span className="mr-3 mt-1.5 flex-shrink-0">
-                <svg
-                    width={12}
-                    height={12}
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="text-[#6f49d8]"
-                >
-                    <g clipPath="url(#clip0_980_24852)">
-                        <path
-                            d="M10 0.5625C4.78125 0.5625 0.5625 4.78125 0.5625 10C0.5625 15.2188 4.78125 19.4688 10 19.4688C15.2188 19.4688 19.4688 15.2188 19.4688 10C19.4688 4.78125 15.2188 0.5625 10 0.5625ZM10 18.0625C5.5625 18.0625 1.96875 14.4375 1.96875 10C1.96875 5.5625 5.5625 1.96875 10 1.96875C14.4375 1.96875 18.0625 5.59375 18.0625 10.0312C18.0625 14.4375 14.4375 18.0625 10 18.0625Z"
-                            fill="currentColor"
-                        />
-                        <path
-                            d="M12.6875 7.09375L8.96875 10.7188L7.28125 9.0625C7 8.78125 6.5625 8.8125 6.28125 9.0625C6 9.34375 6.03125 9.78125 6.28125 10.0625L8.28125 12C8.46875 12.1875 8.71875 12.2813 8.96875 12.2813C9.21875 12.2813 9.46875 12.1875 9.65625 12L13.6875 8.125C13.9688 7.84375 13.9688 7.40625 13.6875 7.125C13.4063 6.84375 12.9688 6.84375 12.6875 7.09375Z"
-                            fill="currentColor"
-                        />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_980_24852">
-                            <rect width={20} height={20} fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-            </span>
-            <span className="text-xs sm:text-sm text-slate-400 leading-relaxed group-hover:text-slate-300">
+            <span className="text-slate-500 mr-2">#</span>
+            <span className="text-xs sm:text-sm text-slate-500 leading-relaxed group-hover:text-slate-500">
                 {text}
             </span>
         </li>
@@ -59,7 +34,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
     responsibilities,
 }) => {
     return (
-        <div className="relative pt-16 pl-8 before:absolute before:left-0 before:top-0 before:h-full before:w-[2px] before:bg-[#6f49d8]/20">
+        <div className="relative pt-20 pl-8 before:absolute before:left-0 before:top-0 before:h-full before:w-[2px] before:bg-[#6f49d8]/20">
             {/* Timeline Dot */}
             <div className="absolute left-[-5.5px] top-[5.25rem] sm:top-[5.55rem] h-3 w-3">
                 <div className="h-full w-full rounded-full bg-[#6f49d8] ring-[6px] ring-[#6f49d8]/10" />
@@ -67,10 +42,10 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
 
             <div className="space-y-4">
                 <div>
-                    <h3 className="text-lg sm:text-xl font-bold text-slate-200 mb-1">
+                    <h3 className="text-lg sm:text-xl font-bold text-slate-400 mb-1">
                         {title}
                     </h3>
-                    <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 text-sm text-slate-400">
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 text-sm text-slate-500">
                         <span className="font-medium">{company}</span>
                         {description && (
                             <>
@@ -79,7 +54,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
                             </>
                         )}
                     </div>
-                    <div className="mt-1 text-xs sm:text-sm text-slate-500">
+                    <div className="mt-1 text-xs sm:text-sm text-[#6f49d8]">
                         {period}
                     </div>
                 </div>
@@ -146,7 +121,7 @@ const Experience: React.FC = () => {
         <section className="py-16" id="experience">
             <div className="space-y-1">
                 <div className="space-y-2">
-                    <h2 className="text-2xl sm:text-3xl font-bold text-slate-200">
+                    <h2 className="text-2xl sm:text-3xl font-bold text-slate-400">
                         💼 Experience
                     </h2>
                     <p className="text-xs sm:text-sm text-slate-500 ml-12">

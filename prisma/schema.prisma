@@ -29,7 +29,7 @@ model Skill {
 
 
 model Experience {
-  id            String   @id @default(uuid())   // Unique identifier for each experience
+  id            Int   @id @default(autoincrement())   // Unique identifier for each experience
   title         String                               // Job title
   company       String                               // Company name
   companyUrl    String?                              // Optional URL for the company's website
@@ -45,65 +45,6 @@ model Certification {
     achieveCertifications String[] // Array of strings to store the names/details of certificates
 }
 
-model JobExperience {
-  id            String   @id @default(cuid()) // Unique ID for the job experience
-  title         String   // Job title (e.g., "Full Stack Developer")
-  company       String   // Company name (e.g., "Sarathi Technosoft Pvt. Ltd")
-  companyUrl    String   // URL of the company (optional, can be null)
-  period        String   // Duration of the job (e.g., "Aug 2021 - Apr 2024")
-  responsibilities String[] // List of responsibilities (required)
-  createdAt     DateTime @default(now()) // Timestamp for when the record was created
-  updatedAt     DateTime @updatedAt // Timestamp for when the record was last updated
-
-  @@map("job_experiences") // Mapping to the table "job_experiences" in the database
-}
 
 
-
-model Blog {
-  id              Int      @id @default(autoincrement())
-  title           String   @db.VarChar(255)
-  excerpt         String?  @db.Text
-  content         String   @db.Text
-  date            DateTime
-  readTime        String   @db.VarChar(50) @map("read_time")
-  slug            String   @db.VarChar(255) @unique
-  thumbnail       String?  @db.Text        // URL of the uploaded image
-  imageId         String?  @db.VarChar(255) // ID from the third-party server
-  category        String?  @db.VarChar(255)
-  tags            String[]
-  isFeatured      Boolean  @default(false) @map("is_featured")
-  createdAt       DateTime @default(now()) @map("created_at")
-  updatedAt       DateTime @updatedAt @map("updated_at")
-  seoTitle        String?  @db.VarChar(255) @map("seo_title")
-  seoDescription  String?  @db.Text         @map("seo_description")
-  seoKeywords     String[] @map("seo_keywords")
-
-  @@map("blogs")
-}
-
-model Project {
-  id              String     @id @default(cuid())
-  title           String
-  description     String
-  content         String     @db.Text
-  imageUrl        String     @map("image_url") // URL of the main image
-  imageId         String     @map("image_id")  // ID of the main image from a third-party server
-  technologies    String[]   // List of technologies used
-  liveUrl         String?    // Link to the live demo (optional)
-  githubUrl       String?    // Link to the GitHub repository (optional)
-  gallery         Json    // Related images or screenshots with URL and ID
-  challenges      String[]   // Challenges faced during development
-  solutions       String[]   // Solutions implemented to overcome challenges
-  timeline        String     // Timeline for the project
-  slug            String     @unique // Unique identifier for URLs
-  status          String     // Current status (e.g., Completed, In Progress)
-  createdAt       DateTime   @default(now())
-  updatedAt       DateTime   @updatedAt
-  tags            String[]   // Additional tags for categorization
-  seoTitle        String?    // SEO-friendly title for the project
-  seoDescription  String?    // SEO-friendly description
-
-  @@map("projects")
-}
 

@@ -1,11 +1,15 @@
 "use client";
-import { createExperience } from "@/features/experiences/experienceSlice";
-import { AppDispatch } from "@/store/store";
-import { useRouter } from "next/navigation";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
+import {
+    fetchSingleExperience,
+    updateExperience,
+} from "@/features/experiences/experienceSlice";
+import { AppDispatch } from "@/store/store";
+import { useParams } from "next/navigation";
 
 interface Experience {
+    id?: string; // Optional for editing existing experiences
     title: string;
     company: string;
     companyUrl?: string;
@@ -13,19 +17,28 @@ interface Experience {
     responsibilities: string[];
 }
 
-const ExperienceForm: React.FC = () => {
+interface ExperienceFormProps {
+    initialData?: Experience; // Optional data for editing
+    onSubmit?: (data: Experience) => void; // Callback for submission
+}
+
+const EditExperienceForm: React.FC<ExperienceFormProps> = ({
+    initialData,
+    onSubmit,
+}) => {
     const [experience, setExperience] = useState<Experience>({
-        title: "",
-        company: "",
-        companyUrl: "",
-        period: "",
-        responsibilities: [],
+        id: initialData?.id || undefined,
+        title: initialData?.title || "",
+        company: initialData?.company || "",
+        companyUrl: initialData?.companyUrl || "",
+        period: initialData?.period || "",
+        responsibilities: initialData?.responsibilities || [],
     });
 
     const dispatch = useDispatch<AppDispatch>();
-    const router = useRouter();
+    const { id } = useParams();
 
-    // Handle form input changes
+    // Handle input changes
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
         setExperience((prevState) => ({
@@ -34,7 +47,37 @@ const ExperienceForm: React.FC = () => {
         }));
     };
 
-    // Handle adding a new responsibility
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const experienceId = Number(id);
+                console.log("types of experience id", id);
+                console.log("types of experience id", experienceId);
+                if (!isNaN(experienceId)) {
+                    await dispatch(fetchSingleExperience(experienceId));
+                }
+            } catch (error) {
+                console.error("Error fetching certification:", error);
+            }
+        };
+        fetchData();
+    }, [id, dispatch]);
+
+    // Sync Redux state with local form state
+    useEffect(() => {
+        if (experience && experience.id === Number(id)) {
+            setExperience({
+                id: experience.id,
+                title: experience.title,
+                company: experience.company,
+                companyUrl: experience.companyUrl,
+                period: experience.period,
+                responsibilities: experience.responsibilities || [],
+            });
+        }
+    }, [experience, id]);
+
+    // Add a new responsibility
     const handleAddResponsibility = () => {
         setExperience((prevState) => ({
             ...prevState,
@@ -42,7 +85,7 @@ const ExperienceForm: React.FC = () => {
         }));
     };
 
-    // Handle removing a specific responsibility
+    // Remove a responsibility
     const handleRemoveResponsibility = (index: number) => {
         setExperience((prevState) => ({
             ...prevState,
@@ -52,7 +95,7 @@ const ExperienceForm: React.FC = () => {
         }));
     };
 
-    // Handle updating responsibility input
+    // Update a specific responsibility
     const responsibilityInputHandler = (index: number, value: string) => {
         setExperience((prevState) => {
             const updatedResponsibilities = [...prevState.responsibilities];
@@ -64,14 +107,20 @@ const ExperienceForm: React.FC = () => {
     // Handle form submission
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        console.log("Form submitted:", experience);
-        dispatch(createExperience(experience));
-        router.push("/admin/experiences");
+        if (onSubmit) {
+            onSubmit(experience); // Invoke the callback
+        } else if (experience.id) {
+            dispatch(updateExperience(experience)); // Dispatch update action
+        } else {
+            dispatch(createExperience(experience)); // Dispatch create action
+        }
     };
 
     return (
         <div>
-            <h1 className="text-3xl text-gray-800 mb-6">Experience Form</h1>
+            <h1 className="text-3xl text-gray-800 mb-6">
+                {experience.id ? "Edit Experience" : "Add Experience"}
+            </h1>
             <form onSubmit={handleSubmit}>
                 {/* Job Title */}
                 <div className="mb-4">
@@ -112,7 +161,8 @@ const ExperienceForm: React.FC = () => {
                         placeholder="Enter company name"
                     />
                 </div>
-                {/* Company Name */}
+
+                {/* Company URL */}
                 <div className="mb-4">
                     <label
                         htmlFor="companyUrl"
@@ -121,12 +171,11 @@ const ExperienceForm: React.FC = () => {
                         Company URL
                     </label>
                     <input
-                        id="company"
+                        id="companyUrl"
                         type="text"
                         name="companyUrl"
                         value={experience.companyUrl}
                         onChange={handleInputChange}
-                        required
                         className="w-full rounded-lg border border-gray-300 px-4 py-3 text-sm focus:ring-2 focus:ring-indigo-400"
                         placeholder="Enter company URL"
                     />
@@ -157,43 +206,32 @@ const ExperienceForm: React.FC = () => {
                     <h3 className="font-medium text-gray-700 mb-2">
                         Responsibilities:
                     </h3>
-                    {experience.responsibilities.length > 0 ? (
-                        <ul>
-                            {experience.responsibilities.map(
-                                (responsibility, index) => (
-                                    <li key={index} className="mb-2">
-                                        <div className="flex items-center justify-between bg-gray-100 px-4 py-2 rounded">
-                                            <input
-                                                type="text"
-                                                value={responsibility}
-                                                onChange={(e) =>
-                                                    responsibilityInputHandler(
-                                                        index,
-                                                        e.target.value
-                                                    )
-                                                }
-                                                className="rounded-lg border border-gray-300 px-4 py-3 text-sm focus:ring-2 focus:ring-indigo-400 w-full"
-                                            />
-                                            <button
-                                                type="button"
-                                                onClick={() =>
-                                                    handleRemoveResponsibility(
-                                                        index
-                                                    )
-                                                }
-                                                className="ml-4 text-red-500 hover:text-red-700"
-                                            >
-                                                Remove
-                                            </button>
-                                        </div>
-                                    </li>
-                                )
-                            )}
-                        </ul>
-                    ) : (
-                        <p className="text-gray-500">
-                            No responsibilities added yet.
-                        </p>
+                    {experience.responsibilities.map(
+                        (responsibility, index) => (
+                            <div key={index} className="flex items-center mb-2">
+                                <input
+                                    type="text"
+                                    value={responsibility}
+                                    onChange={(e) =>
+                                        responsibilityInputHandler(
+                                            index,
+                                            e.target.value
+                                        )
+                                    }
+                                    className="rounded-lg border border-gray-300 px-4 py-3 text-sm focus:ring-2 focus:ring-indigo-400 w-full"
+                                    placeholder={`Responsibility ${index + 1}`}
+                                />
+                                <button
+                                    type="button"
+                                    onClick={() =>
+                                        handleRemoveResponsibility(index)
+                                    }
+                                    className="ml-2 text-red-500 hover:text-red-700"
+                                >
+                                    Remove
+                                </button>
+                            </div>
+                        )
                     )}
                     <button
                         type="button"
@@ -207,16 +245,10 @@ const ExperienceForm: React.FC = () => {
                 {/* Submit Button */}
                 <div className="flex justify-end gap-4">
                     <button
-                        type="button"
-                        className="px-4 py-2 text-gray-300 hover:text-gray-200 hover:bg-gray-800 rounded-lg transition-colors"
-                    >
-                        Cancel
-                    </button>
-                    <button
                         type="submit"
-                        className="flex items-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors"
+                        className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg"
                     >
-                        <span>Save Experience</span>
+                        {experience.id ? "Save Changes" : "Add Experience"}
                     </button>
                 </div>
             </form>
@@ -224,4 +256,4 @@ const ExperienceForm: React.FC = () => {
     );
 };
 
-export default ExperienceForm;
+export default EditExperienceForm;

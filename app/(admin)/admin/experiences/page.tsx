@@ -1,11 +1,10 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import {
     Plus,
     Search,
-    Building2,
     MapPin,
     Calendar,
     Edit2,
@@ -13,26 +12,39 @@ import {
     BriefcaseIcon,
 } from "lucide-react";
 import Link from "next/link";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchExperiences } from "@/features/experiences/experienceSlice";
+import { AppDispatch, RootState } from "@/store/store";
 
-const experiences = [
-    {
-        id: 1,
-        position: "Senior Frontend Developer",
-        company: "Tech Corp",
-        location: "San Francisco, CA",
-        type: "Full-time",
-        startDate: "2022-01",
-        endDate: null,
-        current: true,
-        description:
-            "Leading the frontend development team and architecting scalable solutions.",
-        skills: ["React", "Next.js", "TypeScript", "TailwindCSS"],
-        logo: "/company-1.png",
-    },
-    // Add more experiences...
-];
+// const experiences = [
+//     {
+//         id: 1,
+//         position: "Senior Frontend Developer",
+//         company: "Tech Corp",
+//         location: "San Francisco, CA",
+//         type: "Full-time",
+//         startDate: "2022-01",
+//         endDate: null,
+//         current: true,
+//         description:
+//             "Leading the frontend development team and architecting scalable solutions.",
+//         skills: ["React", "Next.js", "TypeScript", "TailwindCSS"],
+//         logo: "/company-1.png",
+//     },
+//     // Add more experiences...
+// ];
 
 export default function ExperiencePage() {
+    const dispatch = useDispatch<AppDispatch>();
+
+    const { experiences } = useSelector(
+        (state: RootState) => state.experiences // Ensure this matches your store slice
+    );
+
+    useEffect(() => {
+        dispatch(fetchExperiences());
+    }, [dispatch]);
+    console.log("Experiences :", experiences);
     return (
         <div className="min-h-screen  p-6 space-y-6">
             {/* Header */}
@@ -77,24 +89,14 @@ export default function ExperiencePage() {
                     >
                         <div className="flex items-start gap-6">
                             {/* Company Logo */}
-                            <div className="w-16 h-16 rounded-lg bg-[#243656] flex items-center justify-center flex-shrink-0">
-                                {exp.logo ? (
-                                    <img
-                                        src={exp.logo}
-                                        alt={exp.company}
-                                        className="w-12 h-12 object-contain"
-                                    />
-                                ) : (
-                                    <Building2 className="w-8 h-8 text-gray-400" />
-                                )}
-                            </div>
+                            <div className="w-16 h-16 rounded-lg bg-[#243656] flex items-center justify-center flex-shrink-0"></div>
 
                             {/* Content */}
                             <div className="flex-1">
                                 <div className="flex items-start justify-between gap-4">
                                     <div>
                                         <h3 className="text-lg font-medium text-gray-200">
-                                            {exp.position}
+                                            {exp.title}
                                         </h3>
                                         <div className="mt-2 space-y-2">
                                             <div className="flex items-center gap-4 text-sm text-gray-400">
@@ -102,46 +104,21 @@ export default function ExperiencePage() {
                                                     <BriefcaseIcon className="h-4 w-4" />
                                                     <span>{exp.company}</span>
                                                 </div>
-                                                <div className="flex items-center gap-1.5">
-                                                    <MapPin className="h-4 w-4" />
-                                                    <span>{exp.location}</span>
-                                                </div>
-                                                <div className="flex items-center gap-1.5">
-                                                    <Calendar className="h-4 w-4" />
-                                                    <span>
-                                                        {exp.startDate} -{" "}
-                                                        {exp.current
-                                                            ? "Present"
-                                                            : exp.endDate}
-                                                    </span>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-2">
                                         <button className="p-2 hover:bg-[#243656] rounded-lg transition-colors">
-                                            <Edit2 className="h-4 w-4 text-gray-400" />
+                                            <Link
+                                                href={`/admin/experiences/${exp.id}/edit`}
+                                            >
+                                                <Edit2 className="h-4 w-4 text-gray-400" />
+                                            </Link>
                                         </button>
                                         <button className="p-2 hover:bg-[#243656] rounded-lg transition-colors">
                                             <Trash2 className="h-4 w-4 text-red-400" />
                                         </button>
                                     </div>
-                                </div>
-
-                                <p className="mt-3 text-sm text-gray-400 line-clamp-2">
-                                    {exp.description}
-                                </p>
-
-                                {/* Skills */}
-                                <div className="mt-4 flex flex-wrap gap-2">
-                                    {exp.skills.map((skill) => (
-                                        <span
-                                            key={skill}
-                                            className="px-2.5 py-1 rounded-full text-xs bg-indigo-500/10 text-indigo-400 border border-indigo-500/20"
-                                        >
-                                            {skill}
-                                        </span>
-                                    ))}
                                 </div>
                             </div>
                         </div>
