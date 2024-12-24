@@ -31,10 +31,10 @@ const initialState: CertificateState = {
 
 // Async Thunks
 export const createCertification = createAsyncThunk(
-    "certifications/createCertification",
+    "experiences/createExperiences",
     async (certificate: Certification, { rejectWithValue }) => {
         try {
-            const response = await fetch("/api/certifications", {
+            const response = await fetch("/api/experiences", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(certificate),

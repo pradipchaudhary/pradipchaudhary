@@ -135,7 +135,7 @@ export default function ProjectsPage() {
             <div className="relative mb-12">
                 <div className="space-y-6">
                     <div className="space-y-2">
-                        <h1 className="text-3xl font-bold text-slate-200">
+                        <h1 className="text-3xl font-bold text-slate-400">
                             Projects & Work
                         </h1>
                         <div className="h-0.5 w-32 bg-gradient-to-r from-[#6f49d8] to-transparent rounded-full"></div>

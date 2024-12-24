@@ -5,7 +5,7 @@ import {
     fetchCertifications,
 } from "@/features/certifications/certificationSlice";
 import { AppDispatch, RootState } from "@/store/store";
-import { Award, Pencil, ShieldCheck, Trash2 } from "lucide-react";
+import { Award } from "lucide-react";
 import Link from "next/link";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
