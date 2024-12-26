@@ -111,7 +111,7 @@ export default function AboutMe() {
                     <Image
                         src="/signature.png"
                         alt="signature"
-                        width={160}
+                        width={200}
                         height={100}
                         className=" ml-3"
                         style={{ marginLeft: "-10px" }}
