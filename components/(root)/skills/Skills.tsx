@@ -33,7 +33,7 @@ const Skills: React.FC = () => {
                         className="flex items-center cursor-pointer gap-2 px-4 min-w-[80px] py-[.4rem] mb-2 border border-dotted border-[#2b275e] rounded-full text-sm text-slate-500 relative overflow-hidden hover:border-solid hover:animate-border"
                     >
                         <span className="absolute inset-0 border border-transparent transition-all duration-300 ease-linear rounded-full hover:border-[#2b275e]"></span>
-                        {skill.name}
+                        # {skill.name}
                     </span>
                 ))}
             </div>
