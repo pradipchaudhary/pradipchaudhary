@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -139,7 +140,7 @@ export default function Header() {
     return (
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-8 px-4">
             <div className="space-y-4">
-                <div className="space-y-3">
+                <div className="">
                     <h1
                         className="relative pt-12 lg:pt-16 text-slate-500"
                         style={{
@@ -149,23 +150,24 @@ export default function Header() {
                         }}
                     >
                         <Link href="/" className="">
-                            Pradip
-                            <span className="block">Chaudhary</span>
+                            <Image
+                                src="/logo.png"
+                                width={220}
+                                height={100}
+                                alt="Logo"
+                            />
                         </Link>
                     </h1>
 
                     <h2
-                        className="text-sm font-medium tracking-tight text-[#4b3586] sm:text-base lg:text-lg
-                                  hover:text-[#8b6ae5] transition-colors"
+                        className="text-[1rem] tracking-tight text-[#384c69] 
+                                  "
                     >
-                        Full Stack Web Developer
+                        Full Stack Software Developer
                     </h2>
 
-                    <div className="mt-8 space-y-1">
-                        <div
-                            className="text-sm sm:text-sm lg:text-base text-slate-500 leading-relaxed
-                                      max-w-sm"
-                        >
+                    <div className="mt-4 space-y-1">
+                        <div className="text-[1rem] tracking-tight text-[#384c69] italic">
                             Crafting seamless, accessible, and pixel-perfect web
                             experiences.
                         </div>
@@ -187,8 +189,8 @@ export default function Header() {
                                               transition-all duration-300 ease-out
                                               ${
                                                   isActive
-                                                      ? "text-slate-600 "
-                                                      : "text-slate-600 hover:text-slate-300"
+                                                      ? "text-[#384c69] "
+                                                      : "text-[#384c69] hover:text-[#384c69]"
                                               }`}
                                     >
                                         <div className="flex items-center gap-3">
@@ -197,15 +199,15 @@ export default function Header() {
                                                 className={`transition-colors duration-300
                                                         ${
                                                             isActive
-                                                                ? "text-[#6f49d8]"
-                                                                : "text-slate-400 group-hover:text-slate-300"
+                                                                ? "text-[#384c69]"
+                                                                : "text-[#384c69] group-hover:text-[#384c69]"
                                                         }`}
                                             >
                                                 {menu.icon}
                                             </span>
 
                                             {/* Text */}
-                                            <span className="relative">
+                                            <span className="relative text-[1rem] tracking-tight text-[#384c69] italic">
                                                 {menu.name}
                                             </span>
 
