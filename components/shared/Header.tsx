@@ -95,6 +95,25 @@ const menuItem = [
         ),
     },
     {
+        name: "My Work",
+        link: "/projects",
+        icon: (
+            <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+            >
+                <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+                />
+            </svg>
+        ),
+    },
+    {
         name: "Blog ",
         link: "/blog",
         icon: (
@@ -109,25 +128,6 @@ const menuItem = [
                     strokeLinejoin="round"
                     strokeWidth={2}
                     d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5a2.5 2.5 0 00-2.5-2.5H15M9 11l3 3m0 0l3-3m-3 3V8"
-                />
-            </svg>
-        ),
-    },
-    {
-        name: "Projects",
-        link: "/projects",
-        icon: (
-            <svg
-                className="w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-            >
-                <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
                 />
             </svg>
         ),
@@ -207,7 +207,7 @@ export default function Header() {
                                             </span>
 
                                             {/* Text */}
-                                            <span className="relative text-[1rem] tracking-tight text-[#384c69] italic">
+                                            <span className="relative text-[1rem] tracking-tight text-[#384c69] ">
                                                 {menu.name}
                                             </span>
 
@@ -237,15 +237,15 @@ export default function Header() {
                                 rel="noreferrer noopener"
                                 aria-label={`${social.label} (opens in a new tab)`}
                                 className="group flex items-center justify-center 
-                                         w-5 h-5
-                                         text-slate-500 
+                                         w-3 h-3
+                                         text-[#384c69] 
                                          transition-all duration-300 ease-in-out
                                          hover:text-[#6f49d8]
                                          hover:scale-110"
                                 title={social.label}
                             >
                                 <span className="sr-only">{social.label}</span>
-                                <span className="w-6 h-6">{social.icon}</span>
+                                <span className="w-3 h-3">{social.icon}</span>
                             </a>
                         </li>
                     ))}

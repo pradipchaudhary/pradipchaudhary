@@ -1,4 +1,5 @@
 "use client";
+import Editor from "@/components/editor/Editor";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -20,7 +21,7 @@ export default function AboutMe() {
                     className="text-xs sm:text-sm lg:text-base text-slate-500 leading-relaxed
                                       max-w-sm"
                 >
-                    I&apos;m Pradip, a developer based in{" "}
+                    I&apos;m Pradip, a passionate React Developer from{" "}
                     <Link
                         href="https://en.wikipedia.org/wiki/Nepal"
                         target="_blank"

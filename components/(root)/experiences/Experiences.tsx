@@ -8,8 +8,8 @@ interface ListItemProps {
 const ListItem: React.FC<ListItemProps> = ({ text }) => {
     return (
         <li className="flex items-start group rounded-lg transition-all duration-300">
-            <span className="text-slate-500 mr-2">#</span>
-            <span className="text-xs sm:text-sm text-slate-500 leading-relaxed group-hover:text-slate-500">
+            <span className="text-[#384c69] italic mr-2">#</span>
+            <span className="text-xs sm:text-sm text-slate-500  leading-relaxed group-hover:text-slate-500">
                 {text}
             </span>
         </li>
