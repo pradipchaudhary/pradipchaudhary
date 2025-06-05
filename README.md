@@ -36,5 +36,6 @@ My proficiency in modern web technologies, including **[Bulma](https://bulma.io/
 [![Twitter Follow](https://img.shields.io/twitter/follow/pradipchaudhary?label=%40pradipchaudhary&style=social&logo=twitter&color=1DA1F2)](https://twitter.com/pradipchaudhary)
 [![GitHub Follow](https://img.shields.io/github/followers/pradipchaudhary?style=social&logo=github&color=181717)](https://github.com/pradipchaudhary)
 [![LinkedIn Follow](https://img.shields.io/badge/-LinkedIn-blue?style=social&logo=linkedin&color=0077B5)](https://linkedin.com/in/pradipchaudhary)
+<a href="https://www.linkedin.com/in/pradipchaudhary/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
 > Feel free to reach out if you have any exciting projects or collaboration opportunities!
