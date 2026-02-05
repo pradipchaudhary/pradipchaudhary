@@ -8,12 +8,12 @@ As a **Full-Time [React Developer](https://reactjs.org/)**, my expertise lies in
 
 My proficiency in modern web technologies, including **[Bulma](https://bulma.io/)**, **[Bootstrap](https://getbootstrap.com/)**, and **[Tailwind CSS](https://tailwindcss.com/)**, ensures that I craft applications that are not only functional but also visually stunning.
 
+### 🎯 Focus Areas
 
-I focus on:
-- High-performance UI development
-- Clean architecture and reusable components
-- REST API integration and full-stack solutions
-- SEO-optimized and accessible web applications
+⚡ High-performance UI development  
+🧩 Clean architecture & reusable components  
+🔗 REST API integration & full-stack solutions  
+🔍 SEO-optimized & accessible web applications
 
 
 ### 🛠️ Languages and Tools:
