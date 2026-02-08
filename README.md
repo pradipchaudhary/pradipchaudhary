@@ -6,7 +6,8 @@ I'm an enthusiastic <a href="https://www.pradipchaudhary.com.np"><img align="cen
 
 As a **Full-Time [React Developer](https://reactjs.org/)**, my expertise lies in creating **seamless and responsive UIs** and **transforming designs** into engaging web experiences. Currently, I'm diving deep into **[Next.js](https://nextjs.org/)** and **[TypeScript](https://www.typescriptlang.org/)**, leveraging my skills in **[UI/UX Design](https://www.smashingmagazine.com/category/uiux)** and **[SEO](https://moz.com/beginners-guide-to-seo)**, along with **[Web Scraping](https://scrapy.org/)**, to deliver **high-performance solutions** that meet client needs.
 
-My proficiency in modern web technologies, including **[Bulma](https://bulma.io/)**, **[Bootstrap](https://getbootstrap.com/)**, and **[Tailwind CSS](https://tailwindcss.com/)**, ensures that I craft applications that are not only functional but also visually stunning.
+
+My proficiency in cutting-edge web technologies, including **[React](https://react.dev/)**, **[Next.js](https://nextjs.org/)**, **[Tailwind CSS](https://tailwindcss.com/)**, and **[Chakra UI](https://chakra-ui.com/)**, allows me to build applications that are highly performant, fully responsive, and visually engaging.
 
 
 ### 🛠️ Languages and Tools:
