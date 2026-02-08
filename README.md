@@ -2,7 +2,6 @@
 
 ### Hi there, <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" />
 
-I'm an enthusiastic <a href="https://www.pradipchaudhary.com.np"><img align="center" src="https://img.shields.io/badge/Full%20Stack-Engineer-brightgreen"/></a> dedicated to crafting intuitive and dynamic web applications. With hands-on expertise in **React.js**, **JavaScript**, **TypeScript**, and **Node.js**, I excel in transforming complex concepts into seamless digital solutions.
 
 I'm an enthusiastic <a href="https://www.pradipchaudhary.com.np"><img align="center" src="https://img.shields.io/badge/Full%20Stack-Engineer-brightgreen"/></a> dedicated to building **scalable, intuitive, and high-performance web applications**. With hands-on expertise in **[React.js](https://react.dev/)**, **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**, **[TypeScript](https://www.typescriptlang.org/)**, and **[Node.js](https://nodejs.org/)**, I specialize in **translating complex requirements into clean, efficient, and user-centric digital solutions**.
 
